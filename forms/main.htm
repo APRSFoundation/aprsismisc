@@ -1,0 +1,80 @@
+<HTML>
+<HEAD>
+<TITLE>APRS Analyzer v0.1</TITLE>
+</HEAD>
+<script language="JavaScript">
+<!-- Begin code
+function setFocus()
+{	document.MAIN.UserID.focus();
+}
+function convertField(field)
+{	field.value = field.value.toUpperCase()
+}
+// -- End code -->
+</script>
+<script language="REXX">
+<!--BeginREXX Parse upper arg FormName Action
+Say FormName': Action:'Action
+ If (Action = 'HISTORY') Then
+ Do
+	if SYMBOL("MAIN.STATIONID") = 'VAR' then
+		Call RxRedirect('/catchall?FormName=Station&StationID='||MAIN.STATIONID)
+	else Call RxRedirect('/catchall?FormName=Main&Action=Refresh')
+ End
+ else If (Action = 'REFRESH') Then
+ Do
+	Call RxSendMessage('IGATES;APRS;APRS_QUERY_UNIQUE_IGATES;OnlyKnown==1;ReallyAll==1;*=')
+	Call RxDisplay()
+ End
+ else if (Action = 'SYSTEM HEALTH') Then
+ Do
+	Call RxGetSymbolValue('BOOTSTRAP')
+	IPAddress = 'TCP_'BOOTSTRAP
+	Call RxGetSymbolValue(IPAddress)
+	IPPort = VALUE(IPAddress)
+	Call RxRedirect('http://|IPPort|')
+ End
+
+ return 0
+
+BG:
+do
+	Output = ''
+	if BG.ODOMETER \= '0' then
+		Output = 'BGCOLOR=TOMATO'
+end
+return Output
+-->
+</script>
+<BODY BGCOLOR=C0C0C0 onLoad="setFocus()">
+<FORM NAME=MAIN METHOD=POST ACTION="/catchall?FormName=main">
+<CENTER>
+<H1>APRS Analyzer v0.1</H1>
+<HR>
+<TABLE>
+<TR ALIGN=LEFT>
+<TD ALIGN=RIGHT>Station ID:
+<TD ALIGN=LEFT><INPUT TYPE=text NAME=StationID SIZE=12 MAXLENGTH=12 onChange="convertField(this)">
+</TABLE>
+<TABLE>
+<TR>
+<TD ALIGN=CENTER><INPUT TYPE=submit NAME=Action VALUE=History>
+<TD ALIGN=CENTER><INPUT TYPE=submit NAME=Action VALUE=Refresh>
+<TD ALIGN=CENTER><INPUT TYPE=reset  NAME=Action VALUE=Cancel>
+</TABLE>
+<HR>
+<!--Table
+     TITLE=IGates
+     NAME=IGATES.Stations
+     ATTRIBUTES="Border WIDTH=90%"
+     BACKGROUND=BG(Odometer)
+     COLUMNS="{Odometer,-PacketsGated}IGateID,PacketsGated,FirstHeard,LastHeard,Odometer,PacketsReceived"
+     NUM=1
+     FIELD=IGateID
+     HREF=/catchall?FormName=Chart&Action=OnEntry&IGateID=!IGateID!
+-->
+</CENTER>
+</FORM>
+</BODY>
+</HTML>
+

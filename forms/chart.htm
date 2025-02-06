@@ -1,0 +1,53 @@
+<HTML>
+<HEAD>
+<TITLE>APRS Path Chart</TITLE>
+</HEAD>
+<script language="JavaScript">
+<!-- Begin code
+function setFocus()
+{	document.CHART.UserID.focus();
+}
+function convertField(field)
+{	field.value = field.value.toUpperCase()
+}
+// -- End code -->
+</script>
+<script language="REXX">
+<!--BeginREXX Parse upper arg FormName Action
+Say FormName': Action:'Action
+	Call RxSendMessage('PATHS;APRS;APRS_QUERY_UNIQUE_PATHS;IGateID=|IGateID|;ReallyAll==0;*=')
+	Call RxDisplay()
+
+ return 0
+
+BG:
+do
+	Output = ''
+	if BG.IGATE \= '0' then
+		Output = 'BGCOLOR=PALEGREEN'
+end
+return Output
+-->
+</script>
+<BODY BGCOLOR=C0C0C0 onLoad="setFocus()">
+<FORM NAME=CHART METHOD=POST ACTION="/catchall?FormName=Chart">
+<CENTER>
+<H1>APRS Path Chart</H1>
+<HR>
+<!--Table
+     TITLE=Unique&nbsp;Paths
+     NAME=PATHS.Paths
+     ATTRIBUTES="Border WIDTH=90%"
+     BACKGROUND=BG(IGate)
+     COLUMNS="{-UseCount,ToStationID,FromStationID,-LastHeard}UseCount,FromStationID,From,ToStationID,To,FirstHeard,LastHeard,IGate"
+     NUM=2
+     FIELD=FromStationID
+     HREF=/catchall?FormName=Station&Action=OnEntry&StationID=!FromStationID!
+     FIELD=ToStationID
+     HREF=/catchall?FormName=Station&Action=OnEntry&StationID=!ToStationID!
+-->
+</CENTER>
+</FORM>
+</BODY>
+</HTML>
+
