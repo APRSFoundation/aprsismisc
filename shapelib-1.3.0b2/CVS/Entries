@@ -1,0 +1,33 @@
+/ChangeLog/1.1/Wed Aug 17 01:23:25 2011//
+/HOWTO-RELEASE/1.1/Wed Aug 17 01:23:25 2011//
+/LICENSE.LGPL/1.1/Wed Aug 17 01:23:25 2011//
+/Makefile/1.1/Wed Aug 17 01:23:25 2011//
+/README/1.1/Wed Aug 17 01:23:25 2011//
+/README.tree/1.1/Wed Aug 17 01:23:25 2011//
+/dbfadd.c/1.1/Wed Aug 17 01:23:26 2011//
+/dbfcreate.c/1.1/Wed Aug 17 01:23:26 2011//
+/dbfdump.c/1.1/Wed Aug 17 01:23:26 2011//
+/dbfopen.c/1.1/Wed Aug 17 01:23:26 2011//
+/libtool/1.1/Wed Aug 17 01:23:26 2011//
+/makefile.vc/1.1/Wed Aug 17 01:23:26 2011//
+/makeshape.sh/1.1/Wed Aug 17 01:23:26 2011//
+/mkdist.sh/1.1/Wed Aug 17 01:23:26 2011//
+/mkinstalldirs/1.1/Wed Aug 17 01:23:26 2011//
+/mkrelease.sh/1.1/Wed Aug 17 01:23:26 2011//
+/nwsearch.c/1.1/Wed Aug 17 01:23:26 2011//
+/safileio.c/1.1/Wed Aug 17 01:23:26 2011//
+/shapefil.h/1.1/Wed Aug 17 01:23:26 2011//
+/shpadd.c/1.1/Wed Aug 17 01:23:26 2011//
+/shpcreate.c/1.1/Wed Aug 17 01:23:26 2011//
+/shpdump.c/1.1/Wed Aug 17 01:23:26 2011//
+/shpopen.c/1.1/Wed Aug 17 01:23:26 2011//
+/shprewind.c/1.1/Wed Aug 17 01:23:26 2011//
+/shptest.c/1.1/Wed Aug 17 01:23:26 2011//
+/shptree.c/1.1/Wed Aug 17 01:23:26 2011//
+/shptreedump.c/1.1/Wed Aug 17 01:23:26 2011//
+/shputils.c/1.1/Wed Aug 17 01:23:26 2011//
+/stream1.sh/1.1/Wed Aug 17 01:23:26 2011//
+/stream2.sh/1.1/Wed Aug 17 01:23:26 2011//
+D/Shapelib////
+D/contrib////
+D/web////
