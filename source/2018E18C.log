@@ -1,0 +1,412 @@
+2018-05-18 02:53:57 Bootstrap(4216):Executing Step 0 (Create)
+2018-05-18 02:53:57 Bootstrap(4216):Completed Step 0 (Create)
+2018-05-18 02:53:57 Bootstrap(4216):CiGetNextSyncState Starting CiGetNextMcpSyncStateThread With Info 0000000000988350->Step 0
+2018-05-18 02:53:57 SyncStater(5280):CiGetNextMcpSyncStateThread Executing With Info 0000000000988350->Step 0
+2018-05-18 02:53:57 Bootstrap(4216):CiGetNextSyncState Awake with Info 0000000000988350->Step 1
+2018-05-18 02:53:57 Bootstrap(4216):Executing Step 1 (Initialize)
+2018-05-18 02:53:57 Bootstrap(4216):Creating Table StatIDs0 Described By STATION_IDS_S
+2018-05-18 02:53:57 Bootstrap(4216):StatIDs0:Key StatIDs0(PRIMARY) Size 24 vs Pointer(8) Normal
+2018-05-18 02:53:57 Bootstrap(4216):Created Table StatIDs0 Using 553 Bytes in 5 Packets
+2018-05-18 02:53:57 Bootstrap(4216):StatIDs0:Key StatIDs0(Station) Size 4 vs Pointer(8) OPTIMIZED
+2018-05-18 02:53:57 Bootstrap(4216):Error: [Thread 4216(Bootstrap) in DsSetHashKeyCallbacks at/from 335 in DSHASH.c]
+	DbTable(StatIDs0)(Station) Is Not A Custom-Callback Hash Table
+2018-05-18 02:53:57 Queue(DatabaseOptimizer)(2656):DbOptimizer Delaying 15 Minutes, 2 In Queue
+2018-05-18 02:53:57 Bootstrap(4216):Table StatIDs0 After Secondary Station Using 1023 Bytes in 10 Packets
+2018-05-18 02:53:57 Bootstrap(4216):Opening StatIDs0 In ./StatIDs0.dat
+2018-05-18 02:53:57 Bootstrap(4216):StatIDs0:Sizing RecordList To 363 Records
+2018-05-18 02:53:57 Bootstrap(4216):Loading StatIDs0 363 Records In ./StatIDs0.dat
+2018-05-18 02:53:57 Bootstrap(4216):StatIDs0:Primary Key Has 24/28 Bytes (85%) *NOT SHADOWED*
+2018-05-18 02:53:57 Bootstrap(4216):StatIDs0:Secondary StatIDs0(Station) Newly References StationIndex
+2018-05-18 02:53:57 Bootstrap(4216):StatIDs0:Total Keys Use 28/28 Bytes (100%) *NOT SHADOWING*
+2018-05-18 02:53:57 Bootstrap(4216):StatIDs0:Loading 0+363/363 Records (0% Complete) From ./StatIDs0.dat
+2018-05-18 02:53:57 Bootstrap(4216):StatIDs0:Indexing 363 Records Including 0 Shadows
+2018-05-18 02:53:57 Bootstrap(4216):StatIDs0:Indexing 363 Records Took 3 msec (8 usec each)
+2018-05-18 02:53:57 Bootstrap(4216):DbOpenStorageFile:Built Primary and 1 Secondaries
+2018-05-18 02:53:57 Bootstrap(4216):Done Loading StatIDs0 From ./StatIDs0.dat
+2018-05-18 02:53:57 Bootstrap(4216):Loaded Table StatIDs0 Using 25352 Bytes in 14 Packets
+2018-05-18 02:53:57 Bootstrap(4216):Creating Table Position0 Described By POSITION_S
+2018-05-18 02:53:57 Bootstrap(4216):Position0:Key Position0(PRIMARY) Size 4 vs Pointer(8) OPTIMIZED
+2018-05-18 02:53:57 Bootstrap(4216):Error: [Thread 4216(Bootstrap) in DsSetHashKeyCallbacks at/from 335 in DSHASH.c]
+	DbTable(Position0)(PRIMARY) Is Not A Custom-Callback Hash Table
+2018-05-18 02:53:57 Bootstrap(4216):Created Table Position0 Using 522 Bytes in 5 Packets
+2018-05-18 02:53:57 Bootstrap(4216):Position0:Key Position0(Coordinate) Size 16 vs Pointer(8) Normal
+2018-05-18 02:53:57 Bootstrap(4216):Table Position0 After Secondary Coordinate Using 1086 Bytes in 10 Packets
+2018-05-18 02:53:57 Bootstrap(4216):Opening Position0 In ./Position0.dat
+2018-05-18 02:53:57 Bootstrap(4216):Position0:Sizing RecordList To 187 Records
+2018-05-18 02:53:57 Bootstrap(4216):Loading Position0 187 Records In ./Position0.dat
+2018-05-18 02:53:57 Bootstrap(4216):Position0:Primary Key Has 4/32 Bytes (12%) *NOT SHADOWED*
+2018-05-18 02:53:57 Bootstrap(4216):Position0:Secondary Position0(Coordinate) Newly References Where.Latitude
+2018-05-18 02:53:57 Bootstrap(4216):Position0:Secondary Position0(Coordinate) Newly References Where.Longitude
+2018-05-18 02:53:57 Bootstrap(4216):Position0:Total Keys Use 20/32 Bytes (62%) *NOT SHADOWING*
+2018-05-18 02:53:57 Bootstrap(4216):Position0:Loading 0+187/187 Records (0% Complete) From ./Position0.dat
+2018-05-18 02:53:57 Bootstrap(4216):Position0:Indexing 187 Records Including 0 Shadows
+2018-05-18 02:53:57 Bootstrap(4216):Position0:Indexing 187 Records Took 1 msec (7 usec each)
+2018-05-18 02:53:57 Bootstrap(4216):DbOpenStorageFile:Built Primary and 1 Secondaries
+2018-05-18 02:53:57 Bootstrap(4216):Done Loading Position0 From ./Position0.dat
+2018-05-18 02:53:57 Bootstrap(4216):Loaded Table Position0 Using 14371 Bytes in 14 Packets
+2018-05-18 02:53:57 Bootstrap(4216):Creating Table Station2 Described By STATION_S
+2018-05-18 02:53:57 Bootstrap(4216):Station2:Key Station2(PRIMARY) Size 4 vs Pointer(8) OPTIMIZED
+2018-05-18 02:53:57 Bootstrap(4216):Error: [Thread 4216(Bootstrap) in DsSetHashKeyCallbacks at/from 335 in DSHASH.c]
+	DbTable(Station2)(PRIMARY) Is Not A Custom-Callback Hash Table
+2018-05-18 02:53:57 Bootstrap(4216):Created Table Station2 Using 654 Bytes in 5 Packets
+2018-05-18 02:53:57 Bootstrap(4216):Opening Station2 In ./Station2.dat
+2018-05-18 02:53:57 Bootstrap(4216):Station2:Sizing RecordList To 120 Records
+2018-05-18 02:53:57 Bootstrap(4216):Loading Station2 120 Records In ./Station2.dat
+2018-05-18 02:53:57 Bootstrap(4216):Station2:Primary Key Has 4/168 Bytes (2%) Shadowing
+2018-05-18 02:53:57 Bootstrap(4216):Station2:Total Keys Use 4/168 Bytes (2%) 
+2018-05-18 02:53:57 Bootstrap(4216):Station2:Allocating 480 Bytes For StationIndex (3) Shadow
+2018-05-18 02:53:57 Bootstrap(4216):Station2:Loading 0+120/120 Records (0% Complete) From ./Station2.dat
+2018-05-18 02:53:57 Bootstrap(4216):Station2:Indexing 120 Records Including 1 Shadows
+2018-05-18 02:53:57 Bootstrap(4216):Station2:Indexing 120 Records Took 1 msec (5 usec each)
+2018-05-18 02:53:57 Bootstrap(4216):DbOpenStorageFile:Built Primary and 0 Secondaries
+2018-05-18 02:53:57 Bootstrap(4216):Done Loading Station2 From ./Station2.dat
+2018-05-18 02:53:57 Bootstrap(4216):Loaded Table Station2 Using 25982 Bytes in 10 Packets
+2018-05-18 02:53:57 Bootstrap(4216):Creating Table Hop0 Described By HOP_S
+2018-05-18 02:53:57 Bootstrap(4216):Hop0:Key Hop0(PRIMARY) Size 8 vs Pointer(8) OPTIMIZED
+2018-05-18 02:53:57 Bootstrap(4216):Error: [Thread 4216(Bootstrap) in DsSetHashKeyCallbacks at/from 335 in DSHASH.c]
+	DbTable(Hop0)(PRIMARY) Is Not A Custom-Callback Hash Table
+2018-05-18 02:53:57 Bootstrap(4216):Created Table Hop0 Using 574 Bytes in 5 Packets
+2018-05-18 02:53:57 Bootstrap(4216):Hop0:Key Hop0(Packet) Size 4 vs Pointer(8) OPTIMIZED
+2018-05-18 02:53:57 Bootstrap(4216):Error: [Thread 4216(Bootstrap) in DsSetHashKeyCallbacks at/from 335 in DSHASH.c]
+	DbTable(Hop0)(Packet) Is Not A Custom-Callback Hash Table
+2018-05-18 02:53:57 Bootstrap(4216):Table Hop0 After Secondary Packet Using 1036 Bytes in 10 Packets
+2018-05-18 02:53:57 Bootstrap(4216):Opening Hop0 In ./Hop0.dat
+2018-05-18 02:53:57 Bootstrap(4216):Hop0:Sizing RecordList To 20032 Records
+2018-05-18 02:53:57 Bootstrap(4216):Loading Hop0 20032 Records In ./Hop0.dat
+2018-05-18 02:53:57 Bootstrap(4216):Hop0:Primary Key Has 8/20 Bytes (40%) *NOT SHADOWED*
+2018-05-18 02:53:57 Bootstrap(4216):Hop0:Total Keys Use 8/20 Bytes (40%) *NOT SHADOWING*
+2018-05-18 02:53:57 Bootstrap(4216):Hop0:Loading 0+20032/20032 Records (0% Complete) From ./Hop0.dat
+2018-05-18 02:53:57 Bootstrap(4216):Hop0:Indexing 20032 Records Including 0 Shadows
+2018-05-18 02:53:58 Bootstrap(4216):Hop0:Indexing 20032 Records Took 93 msec (5 usec each)
+2018-05-18 02:53:58 Bootstrap(4216):DbOpenStorageFile:Built Primary and 1 Secondaries
+2018-05-18 02:53:58 Bootstrap(4216):Done Loading Hop0 From ./Hop0.dat
+2018-05-18 02:53:58 Bootstrap(4216):Loaded Table Hop0 Using 1182932 Bytes in 14 Packets
+2018-05-18 02:53:58 Bootstrap(4216):Creating Table Packet1 Described By PACKET_S
+2018-05-18 02:53:58 Bootstrap(4216):Packet1:Key Packet1(PRIMARY) Size 4 vs Pointer(8) OPTIMIZED
+2018-05-18 02:53:58 Bootstrap(4216):Error: [Thread 4216(Bootstrap) in DsSetHashKeyCallbacks at/from 335 in DSHASH.c]
+	DbTable(Packet1)(PRIMARY) Is Not A Custom-Callback Hash Table
+2018-05-18 02:53:58 Bootstrap(4216):Created Table Packet1 Using 586 Bytes in 5 Packets
+2018-05-18 02:53:58 Bootstrap(4216):Packet1:Key Packet1(Origin) Size 4 vs Pointer(8) OPTIMIZED
+2018-05-18 02:53:58 Bootstrap(4216):Error: [Thread 4216(Bootstrap) in DsSetHashKeyCallbacks at/from 335 in DSHASH.c]
+	DbTable(Packet1)(Origin) Is Not A Custom-Callback Hash Table
+2018-05-18 02:53:58 Bootstrap(4216):Table Packet1 After Secondary Origin Using 1051 Bytes in 10 Packets
+2018-05-18 02:53:58 Bootstrap(4216):Packet1:Key Packet1(Heard) Size 4 vs Pointer(8) OPTIMIZED
+2018-05-18 02:53:58 Bootstrap(4216):Error: [Thread 4216(Bootstrap) in DsSetHashKeyCallbacks at/from 335 in DSHASH.c]
+	DbTable(Packet1)(Heard) Is Not A Custom-Callback Hash Table
+2018-05-18 02:53:58 Bootstrap(4216):Table Packet1 After Secondary Heard Using 1512 Bytes in 14 Packets
+2018-05-18 02:53:58 Bootstrap(4216):Opening Packet1 In ./Packet1.dat
+2018-05-18 02:53:58 Bootstrap(4216):Packet1:Sizing RecordList To 4202 Records
+2018-05-18 02:53:58 Bootstrap(4216):Loading Packet1 4202 Records In ./Packet1.dat
+2018-05-18 02:53:58 Bootstrap(4216):Packet1:Primary Key Has 4/88 Bytes (4%) Shadowing
+2018-05-18 02:53:58 Bootstrap(4216):Packet1:Secondary Packet1(Origin) Newly References OriginIndex
+2018-05-18 02:53:58 Bootstrap(4216):Packet1:Secondary Packet1(Heard) Newly References HeardIndex
+2018-05-18 02:53:58 Bootstrap(4216):Packet1:Total Keys Use 12/88 Bytes (13%) 
+2018-05-18 02:53:58 Bootstrap(4216):Packet1:Allocating 16808 Bytes For PacketIndex (1) Shadow
+2018-05-18 02:53:58 Bootstrap(4216):Packet1:Allocating 16808 Bytes For OriginIndex (2) Shadow
+2018-05-18 02:53:58 Bootstrap(4216):Packet1:Allocating 16808 Bytes For HeardIndex (4) Shadow
+2018-05-18 02:53:58 Bootstrap(4216):Packet1:Loading 0+4202/4202 Records (0% Complete) From ./Packet1.dat
+2018-05-18 02:53:58 Bootstrap(4216):Packet1:Indexing 4202 Records Including 3 Shadows
+2018-05-18 02:53:58 Bootstrap(4216):Packet1:Indexing 4202 Records Took 4 msec (1 usec each)
+2018-05-18 02:53:58 Bootstrap(4216):DbOpenStorageFile:Built Primary and 2 Secondaries
+2018-05-18 02:53:58 Bootstrap(4216):Done Loading Packet1 From ./Packet1.dat
+2018-05-18 02:53:58 Bootstrap(4216):Loaded Table Packet1 Using 585598 Bytes in 21 Packets
+2018-05-18 02:53:58 Bootstrap(4216):Creating Table User1 Described By APRSISCE_USER_S
+2018-05-18 02:53:58 Bootstrap(4216):User1:Key User1(PRIMARY) Size 12 vs Pointer(8) Normal
+2018-05-18 02:53:58 Bootstrap(4216):Created Table User1 Using 562 Bytes in 5 Packets
+2018-05-18 02:53:58 Bootstrap(4216):Opening User1 In ./User1.dat
+2018-05-18 02:53:58 Bootstrap(4216):Loading User1 0 Records In ./User1.dat
+2018-05-18 02:53:58 Bootstrap(4216):User1:Primary Key Has 12/112 Bytes (10%) *NOT SHADOWED*
+2018-05-18 02:53:58 Bootstrap(4216):User1:Total Keys Use 12/112 Bytes (10%) 
+2018-05-18 02:53:58 Bootstrap(4216):User1:Allocating 12 Bytes For StationID (1) Shadow
+2018-05-18 02:53:58 Bootstrap(4216):DbOpenStorageFile:Built Primary and 0 Secondaries
+2018-05-18 02:53:58 Bootstrap(4216):Done Loading User1 From ./User1.dat
+2018-05-18 02:53:58 Bootstrap(4216):Loaded Table User1 Using 582 Bytes in 8 Packets
+2018-05-18 02:53:58 Bootstrap(4216):Creating Table UserPkt0 Described By USER_PACKET_S
+2018-05-18 02:53:58 Bootstrap(4216):UserPkt0:Key UserPkt0(PRIMARY) Size 20 vs Pointer(8) Normal
+2018-05-18 02:53:58 Bootstrap(4216):Created Table UserPkt0 Using 576 Bytes in 5 Packets
+2018-05-18 02:53:58 Bootstrap(4216):Opening UserPkt0 In ./UserPkt0.dat
+2018-05-18 02:53:58 Bootstrap(4216):Loading UserPkt0 0 Records In ./UserPkt0.dat
+2018-05-18 02:53:58 Bootstrap(4216):UserPkt0:Primary Key Has 20/120 Bytes (16%) *NOT SHADOWED*
+2018-05-18 02:53:58 Bootstrap(4216):UserPkt0:Total Keys Use 20/120 Bytes (16%) 
+2018-05-18 02:53:58 Bootstrap(4216):UserPkt0:Allocating 12 Bytes For StationID (1) Shadow
+2018-05-18 02:53:58 Bootstrap(4216):UserPkt0:Allocating 8 Bytes For When (2) Shadow
+2018-05-18 02:53:58 Bootstrap(4216):DbOpenStorageFile:Built Primary and 0 Secondaries
+2018-05-18 02:53:58 Bootstrap(4216):Done Loading UserPkt0 From ./UserPkt0.dat
+2018-05-18 02:53:58 Bootstrap(4216):Loaded Table UserPkt0 Using 604 Bytes in 9 Packets
+2018-05-18 02:53:58 Bootstrap(4216):No Longer Purging Orphan Hops!
+2018-05-18 02:53:58 TcpListener(2348):New TcpConnMax from 0 to 1
+2018-05-18 02:53:58 TcpAddressDisplay(12920):Executing *NOWHERE*
+2018-05-18 02:54:00 TcpAddressDisplay(12920):Executing at 192.168.0.14:54926 (Loopback 127.0.0.1:54926)
+2018-05-18 02:54:00 Bootstrap(4216):Completed Step 1 (Initialize)
+2018-05-18 02:54:00 Bootstrap(4216):CiGetNextSyncState Starting CiGetNextMcpSyncStateThread With Info 0000000000987710->Step 1
+2018-05-18 02:54:00 SyncStater(11244):CiGetNextMcpSyncStateThread Executing With Info 0000000000987710->Step 1
+2018-05-18 02:54:00 Bootstrap(4216):CiGetNextSyncState Awake with Info 0000000000987710->Step 2
+2018-05-18 02:54:00 Bootstrap(4216):Executing Step 2 (Start)
+2018-05-18 02:54:00 Bootstrap(4216):Completed Step 2 (Start)
+2018-05-18 02:54:00 Bootstrap(4216):CiGetNextSyncState Starting CiGetNextMcpSyncStateThread With Info 0000000003803D90->Step 2
+2018-05-18 02:54:00 Purger(18088):Purger Delaying 10 minutes!
+2018-05-18 02:54:00 SyncStater(15556):CiGetNextMcpSyncStateThread Executing With Info 0000000003803D90->Step 2
+2018-05-18 02:54:00 Bootstrap(4216):CiGetNextSyncState Awake with Info 0000000003803D90->Step 3
+2018-05-18 02:54:00 Bootstrap(4216):Executing Step 3 (Run)
+2018-05-18 02:54:00 Bootstrap(4216):Completed Step 3 (Run)
+2018-05-18 02:54:00 Bootstrap(4216):CiGetNextSyncState Starting CiGetNextMcpSyncStateThread With Info 0000000003803E10->Step 3
+2018-05-18 02:54:00 SyncStater(15556):CiGetNextMcpSyncStateThread Executing With Info 0000000003803E10->Step 3
+2018-05-18 02:54:01 AprsPoller(11244):TCP_APRS not defined, NOT forwarding packets
+2018-05-18 02:54:03 TcpAddressDisplay(12920):Executing at 192.168.0.14:54926 (Loopback 127.0.0.1:54926)
+2018-05-18 02:54:07 TcpAddressDisplay(12920):Executing at 192.168.0.14:54926 (Loopback 127.0.0.1:54926)
+2018-05-18 02:54:14 TcpAddressDisplay(12920):Executing at 192.168.0.14:54926 (Loopback 127.0.0.1:54926)
+2018-05-18 02:54:15 MainThread(7084):Invoking BreakCallback from Handler(0 (0x0))
+2018-05-18 02:54:15 Bootstrap(4216):CiGetNextSyncState Awake with Info 0000000003803E10->Step 4
+2018-05-18 02:54:15 Bootstrap(4216):Executing Step 4 (Quiesce)
+2018-05-18 02:54:15 Bootstrap(4216):Completed Step 4 (Quiesce)
+2018-05-18 02:54:15 Bootstrap(4216):CiGetNextSyncState Starting CiGetNextMcpSyncStateThread With Info 0000000003804250->Step 4
+2018-05-18 02:54:15 SyncStater(15556):CiGetNextMcpSyncStateThread Executing With Info 0000000003804250->Step 4
+2018-05-18 02:54:15 Bootstrap(4216):CiGetNextSyncState Awake with Info 0000000003804250->Step 5
+2018-05-18 02:54:15 Bootstrap(4216):Executing Step 5 (Stop)
+2018-05-18 02:54:15 Bootstrap(4216):DbCloseAllTables:Closing 7 Tables Try 1/10 
+2018-05-18 02:54:15 Bootstrap(4216):DbCloseAllTables:Locking Hop0
+2018-05-18 02:54:15 Bootstrap(4216):DbCloseAllTables:Locking Packet1
+2018-05-18 02:54:15 Bootstrap(4216):DbCloseAllTables:Locking Position0
+2018-05-18 02:54:15 Bootstrap(4216):DbCloseAllTables:Locking StatIDs0
+2018-05-18 02:54:15 Bootstrap(4216):DbCloseAllTables:Locking Station2
+2018-05-18 02:54:15 Bootstrap(4216):DbCloseAllTables:Locking User1
+2018-05-18 02:54:15 Bootstrap(4216):DbCloseAllTables:Locking UserPkt0
+2018-05-18 02:54:15 Bootstrap(4216):DbCloseAllTables:Closing Hop0
+2018-05-18 02:54:15 Bootstrap(4216):Closing Hop0
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:DeleteHashKey
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:CloseStorageFile
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:Free RecordList
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:Free References
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:Free Extent[0]->0000000003100040
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:Free Extents
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:FreeAccessPlans
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:FreeMappings
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:Free PrimaryKey
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:Free Key Hop0(PRIMARY) Description
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:Destroy Key Hop0(PRIMARY) Hash DbTable(Hop0)(PRIMARY)
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:Free Key Hop0(PRIMARY) KeyParts
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:Free Key Hop0(PRIMARY) Fields
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:Free Key Hop0(PRIMARY) DefaultMapString(PacketIndex=PacketIndex AND Sequence=Sequence)
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:Free Key Hop0(PRIMARY) itself
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:Done Freeing Key
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:Free Secondary[0]=Hop0(Packet)
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:Free Key Hop0(Packet) Description
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:Free Non-Unique Key Hop0(Packet) KeyLinks
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:Destroy Key Hop0(Packet) Hash DbTable(Hop0)(Packet)
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:Free Key Hop0(Packet) KeyParts
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:Free Key Hop0(Packet) Fields
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:Free Key Hop0(Packet) DefaultMapString(PacketIndex=PacketIndex)
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:Free Key Hop0(Packet) itself
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:Done Freeing Key
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:Free SecondaryKeys
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:Free KeyValues
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:Free FreeKeyLink list FreeKeyLink=539 KeyLinkCount=4097 KeyLinkFreeCount=4097
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:Freed 4097 KeyLinks in 0.48 msec
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:Free KeyLinks
+2018-05-18 02:54:15 Bootstrap(4216):Hop0:Destroy Heap
+2018-05-18 02:54:15 Bootstrap(4216):Done Closing Hop0
+2018-05-18 02:54:15 Bootstrap(4216):DbCloseAllTables:Closing Packet1
+2018-05-18 02:54:15 Bootstrap(4216):Closing Packet1
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:DeleteHashKey
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:CloseStorageFile
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free RecordList
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free References
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free Extent[0]->0000000003700040
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free Extents
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:FreeAccessPlans
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:FreeMappings
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free PrimaryKey
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free Key Packet1(PRIMARY) Description
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Destroy Key Packet1(PRIMARY) Hash DbTable(Packet1)(PRIMARY)
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free Key Packet1(PRIMARY) KeyParts
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free Key Packet1(PRIMARY) Fields
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free Key Packet1(PRIMARY) DefaultMapString(PacketIndex=PacketIndex)
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free Key Packet1(PRIMARY) itself
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Done Freeing Key
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free Secondary[0]=Packet1(Origin)
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free Key Packet1(Origin) Description
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free Non-Unique Key Packet1(Origin) KeyLinks
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Destroy Key Packet1(Origin) Hash DbTable(Packet1)(Origin)
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free Key Packet1(Origin) KeyParts
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free Key Packet1(Origin) Fields
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free Key Packet1(Origin) DefaultMapString(OriginIndex=OriginIndex)
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free Key Packet1(Origin) itself
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Done Freeing Key
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free Secondary[1]=Packet1(Heard)
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free Key Packet1(Heard) Description
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free Non-Unique Key Packet1(Heard) KeyLinks
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Destroy Key Packet1(Heard) Hash DbTable(Packet1)(Heard)
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free Key Packet1(Heard) KeyParts
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free Key Packet1(Heard) Fields
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free Key Packet1(Heard) DefaultMapString(HeardIndex=HeardIndex)
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free Key Packet1(Heard) itself
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Done Freeing Key
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free SecondaryKeys
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free KeyValues[1]=PacketIndex
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free KeyValues[2]=OriginIndex
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free KeyValues[4]=HeardIndex
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free KeyValues
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free FreeKeyLink list FreeKeyLink=16 KeyLinkCount=129 KeyLinkFreeCount=129
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Freed 129 KeyLinks in 0.02 msec
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Free KeyLinks
+2018-05-18 02:54:15 Bootstrap(4216):Packet1:Destroy Heap
+2018-05-18 02:54:15 Bootstrap(4216):Done Closing Packet1
+2018-05-18 02:54:15 Bootstrap(4216):DbCloseAllTables:Closing Position0
+2018-05-18 02:54:15 Bootstrap(4216):Closing Position0
+2018-05-18 02:54:15 Bootstrap(4216):Position0:DeleteHashKey
+2018-05-18 02:54:15 Bootstrap(4216):Position0:CloseStorageFile
+2018-05-18 02:54:15 Bootstrap(4216):Position0:Free RecordList
+2018-05-18 02:54:15 Bootstrap(4216):Position0:Free References
+2018-05-18 02:54:15 Bootstrap(4216):Position0:Free Extent[0]->0000000002749FE0
+2018-05-18 02:54:15 Bootstrap(4216):Position0:Free Extents
+2018-05-18 02:54:15 Bootstrap(4216):Position0:FreeAccessPlans
+2018-05-18 02:54:15 Bootstrap(4216):Position0:FreeMappings
+2018-05-18 02:54:15 Bootstrap(4216):Position0:Free PrimaryKey
+2018-05-18 02:54:15 Bootstrap(4216):Position0:Free Key Position0(PRIMARY) Description
+2018-05-18 02:54:15 Bootstrap(4216):Position0:Destroy Key Position0(PRIMARY) Hash DbTable(Position0)(PRIMARY)
+2018-05-18 02:54:15 Bootstrap(4216):Position0:Free Key Position0(PRIMARY) KeyParts
+2018-05-18 02:54:15 Bootstrap(4216):Position0:Free Key Position0(PRIMARY) Fields
+2018-05-18 02:54:15 Bootstrap(4216):Position0:Free Key Position0(PRIMARY) DefaultMapString(PositionIndex=PositionIndex)
+2018-05-18 02:54:15 Bootstrap(4216):Position0:Free Key Position0(PRIMARY) itself
+2018-05-18 02:54:15 Bootstrap(4216):Position0:Done Freeing Key
+2018-05-18 02:54:15 Bootstrap(4216):Position0:Free Secondary[0]=Position0(Coordinate)
+2018-05-18 02:54:15 Bootstrap(4216):Position0:Free Key Position0(Coordinate) Description
+2018-05-18 02:54:15 Bootstrap(4216):Position0:Free Non-Unique Key Position0(Coordinate) KeyLinks
+2018-05-18 02:54:15 Bootstrap(4216):Position0:Destroy Key Position0(Coordinate) Hash DbTable(Position0)(Coordinate)
+2018-05-18 02:54:15 Bootstrap(4216):Position0:Free Key Position0(Coordinate) KeyParts
+2018-05-18 02:54:15 Bootstrap(4216):Position0:Free Key Position0(Coordinate) Fields
+2018-05-18 02:54:15 Bootstrap(4216):Position0:Free Key Position0(Coordinate) DefaultMapString(Where.Latitude=Where.Latitude AND Where.Longitude=Where.Longitude)
+2018-05-18 02:54:15 Bootstrap(4216):Position0:Free Key Position0(Coordinate) itself
+2018-05-18 02:54:15 Bootstrap(4216):Position0:Done Freeing Key
+2018-05-18 02:54:15 Bootstrap(4216):Position0:Free SecondaryKeys
+2018-05-18 02:54:15 Bootstrap(4216):Position0:Free KeyValues
+2018-05-18 02:54:15 Bootstrap(4216):Position0:Free FreeKeyLink list FreeKeyLink=0 KeyLinkCount=0 KeyLinkFreeCount=0
+2018-05-18 02:54:15 Bootstrap(4216):Position0:Freed 0 KeyLinks in 0.00 msec
+2018-05-18 02:54:15 Bootstrap(4216):Position0:Free KeyLinks
+2018-05-18 02:54:15 Bootstrap(4216):Position0:Destroy Heap
+2018-05-18 02:54:15 Bootstrap(4216):Done Closing Position0
+2018-05-18 02:54:15 Bootstrap(4216):DbCloseAllTables:Closing StatIDs0
+2018-05-18 02:54:15 Bootstrap(4216):Closing StatIDs0
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:DeleteHashKey
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:CloseStorageFile
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:Free RecordList
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:Free References
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:Free Extent[0]->00000000027425C0
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:Free Extents
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:FreeAccessPlans
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:FreeMappings
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:Free PrimaryKey
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:Free Key StatIDs0(PRIMARY) Description
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:Destroy Key StatIDs0(PRIMARY) Hash DbTable(StatIDs0)(PRIMARY)
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:Free Key StatIDs0(PRIMARY) KeyParts
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:Free Key StatIDs0(PRIMARY) Fields
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:Free Key StatIDs0(PRIMARY) DefaultMapString(OwnerID=OwnerID AND StationID=StationID)
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:Free Key StatIDs0(PRIMARY) itself
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:Done Freeing Key
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:Free Secondary[0]=StatIDs0(Station)
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:Free Key StatIDs0(Station) Description
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:Free Non-Unique Key StatIDs0(Station) KeyLinks
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:Destroy Key StatIDs0(Station) Hash DbTable(StatIDs0)(Station)
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:Free Key StatIDs0(Station) KeyParts
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:Free Key StatIDs0(Station) Fields
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:Free Key StatIDs0(Station) DefaultMapString(StationIndex=StationIndex)
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:Free Key StatIDs0(Station) itself
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:Done Freeing Key
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:Free SecondaryKeys
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:Free KeyValues
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:Free FreeKeyLink list FreeKeyLink=0 KeyLinkCount=0 KeyLinkFreeCount=0
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:Freed 0 KeyLinks in 0.00 msec
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:Free KeyLinks
+2018-05-18 02:54:15 Bootstrap(4216):StatIDs0:Destroy Heap
+2018-05-18 02:54:15 Bootstrap(4216):Done Closing StatIDs0
+2018-05-18 02:54:15 Bootstrap(4216):DbCloseAllTables:Closing Station2
+2018-05-18 02:54:15 Bootstrap(4216):Closing Station2
+2018-05-18 02:54:15 Bootstrap(4216):Station2:DeleteHashKey
+2018-05-18 02:54:15 Bootstrap(4216):Station2:CloseStorageFile
+2018-05-18 02:54:15 Bootstrap(4216):Station2:Free RecordList
+2018-05-18 02:54:15 Bootstrap(4216):Station2:Free References
+2018-05-18 02:54:15 Bootstrap(4216):Station2:Free Extent[0]->000000000274F610
+2018-05-18 02:54:15 Bootstrap(4216):Station2:Free Extents
+2018-05-18 02:54:15 Bootstrap(4216):Station2:FreeAccessPlans
+2018-05-18 02:54:15 Bootstrap(4216):Station2:FreeMappings
+2018-05-18 02:54:15 Bootstrap(4216):Station2:Free PrimaryKey
+2018-05-18 02:54:15 Bootstrap(4216):Station2:Free Key Station2(PRIMARY) Description
+2018-05-18 02:54:15 Bootstrap(4216):Station2:Destroy Key Station2(PRIMARY) Hash DbTable(Station2)(PRIMARY)
+2018-05-18 02:54:15 Bootstrap(4216):Station2:Free Key Station2(PRIMARY) KeyParts
+2018-05-18 02:54:15 Bootstrap(4216):Station2:Free Key Station2(PRIMARY) Fields
+2018-05-18 02:54:15 Bootstrap(4216):Station2:Free Key Station2(PRIMARY) DefaultMapString(StationIndex=StationIndex)
+2018-05-18 02:54:15 Bootstrap(4216):Station2:Free Key Station2(PRIMARY) itself
+2018-05-18 02:54:15 Bootstrap(4216):Station2:Done Freeing Key
+2018-05-18 02:54:15 Bootstrap(4216):Station2:Free SecondaryKeys
+2018-05-18 02:54:15 Bootstrap(4216):Station2:Free KeyValues[3]=StationIndex
+2018-05-18 02:54:15 Bootstrap(4216):Station2:Free KeyValues
+2018-05-18 02:54:15 Bootstrap(4216):Station2:Free FreeKeyLink list FreeKeyLink=0 KeyLinkCount=0 KeyLinkFreeCount=0
+2018-05-18 02:54:15 Bootstrap(4216):Station2:Freed 0 KeyLinks in 0.00 msec
+2018-05-18 02:54:15 Bootstrap(4216):Station2:Free KeyLinks
+2018-05-18 02:54:15 Bootstrap(4216):Station2:Destroy Heap
+2018-05-18 02:54:15 Bootstrap(4216):Done Closing Station2
+2018-05-18 02:54:15 Bootstrap(4216):DbCloseAllTables:Closing User1
+2018-05-18 02:54:15 Bootstrap(4216):Closing User1
+2018-05-18 02:54:15 Bootstrap(4216):User1:DeleteHashKey
+2018-05-18 02:54:15 Bootstrap(4216):User1:CloseStorageFile
+2018-05-18 02:54:15 Bootstrap(4216):User1:Free RecordList
+2018-05-18 02:54:15 Bootstrap(4216):User1:Free References
+2018-05-18 02:54:15 Bootstrap(4216):User1:Free Extent[0]->00000000032DDB30
+2018-05-18 02:54:15 Bootstrap(4216):User1:Free Extents
+2018-05-18 02:54:15 Bootstrap(4216):User1:FreeAccessPlans
+2018-05-18 02:54:15 Bootstrap(4216):User1:FreeMappings
+2018-05-18 02:54:15 Bootstrap(4216):User1:Free PrimaryKey
+2018-05-18 02:54:15 Bootstrap(4216):User1:Free Key User1(PRIMARY) Description
+2018-05-18 02:54:15 Bootstrap(4216):User1:Destroy Key User1(PRIMARY) Hash DbTable(User1)(PRIMARY)
+2018-05-18 02:54:15 Bootstrap(4216):User1:Free Key User1(PRIMARY) KeyParts
+2018-05-18 02:54:15 Bootstrap(4216):User1:Free Key User1(PRIMARY) Fields
+2018-05-18 02:54:15 Bootstrap(4216):User1:Free Key User1(PRIMARY) DefaultMapString(StationID=StationID)
+2018-05-18 02:54:15 Bootstrap(4216):User1:Free Key User1(PRIMARY) itself
+2018-05-18 02:54:15 Bootstrap(4216):User1:Done Freeing Key
+2018-05-18 02:54:15 Bootstrap(4216):User1:Free SecondaryKeys
+2018-05-18 02:54:15 Bootstrap(4216):User1:Free KeyValues[1]=StationID
+2018-05-18 02:54:15 Bootstrap(4216):User1:Free KeyValues
+2018-05-18 02:54:15 Bootstrap(4216):User1:Free FreeKeyLink list FreeKeyLink=0 KeyLinkCount=0 KeyLinkFreeCount=0
+2018-05-18 02:54:15 Bootstrap(4216):User1:Freed 0 KeyLinks in 0.00 msec
+2018-05-18 02:54:15 Bootstrap(4216):User1:Free KeyLinks
+2018-05-18 02:54:15 Bootstrap(4216):User1:Destroy Heap
+2018-05-18 02:54:15 Bootstrap(4216):Done Closing User1
+2018-05-18 02:54:15 Bootstrap(4216):DbCloseAllTables:Closing UserPkt0
+2018-05-18 02:54:15 Bootstrap(4216):Closing UserPkt0
+2018-05-18 02:54:15 Bootstrap(4216):UserPkt0:DeleteHashKey
+2018-05-18 02:54:15 Bootstrap(4216):UserPkt0:CloseStorageFile
+2018-05-18 02:54:15 Bootstrap(4216):UserPkt0:Free RecordList
+2018-05-18 02:54:15 Bootstrap(4216):UserPkt0:Free References
+2018-05-18 02:54:15 Bootstrap(4216):UserPkt0:Free Extent[0]->000000000352ADC0
+2018-05-18 02:54:15 Bootstrap(4216):UserPkt0:Free Extents
+2018-05-18 02:54:15 Bootstrap(4216):UserPkt0:FreeAccessPlans
+2018-05-18 02:54:15 Bootstrap(4216):UserPkt0:FreeMappings
+2018-05-18 02:54:15 Bootstrap(4216):UserPkt0:Free PrimaryKey
+2018-05-18 02:54:15 Bootstrap(4216):UserPkt0:Free Key UserPkt0(PRIMARY) Description
+2018-05-18 02:54:15 Bootstrap(4216):UserPkt0:Destroy Key UserPkt0(PRIMARY) Hash DbTable(UserPkt0)(PRIMARY)
+2018-05-18 02:54:15 Bootstrap(4216):UserPkt0:Free Key UserPkt0(PRIMARY) KeyParts
+2018-05-18 02:54:15 Bootstrap(4216):UserPkt0:Free Key UserPkt0(PRIMARY) Fields
+2018-05-18 02:54:15 Bootstrap(4216):UserPkt0:Free Key UserPkt0(PRIMARY) DefaultMapString(StationID=StationID AND When=When)
+2018-05-18 02:54:15 Bootstrap(4216):UserPkt0:Free Key UserPkt0(PRIMARY) itself
+2018-05-18 02:54:15 Bootstrap(4216):UserPkt0:Done Freeing Key
+2018-05-18 02:54:15 Bootstrap(4216):UserPkt0:Free SecondaryKeys
+2018-05-18 02:54:15 Bootstrap(4216):UserPkt0:Free KeyValues[1]=StationID
+2018-05-18 02:54:15 Bootstrap(4216):UserPkt0:Free KeyValues[2]=When
+2018-05-18 02:54:15 Bootstrap(4216):UserPkt0:Free KeyValues
+2018-05-18 02:54:15 Bootstrap(4216):UserPkt0:Free FreeKeyLink list FreeKeyLink=0 KeyLinkCount=0 KeyLinkFreeCount=0
+2018-05-18 02:54:15 Bootstrap(4216):UserPkt0:Freed 0 KeyLinks in 0.00 msec
+2018-05-18 02:54:15 Bootstrap(4216):UserPkt0:Free KeyLinks
+2018-05-18 02:54:15 Bootstrap(4216):UserPkt0:Destroy Heap
+2018-05-18 02:54:15 Bootstrap(4216):Done Closing UserPkt0
+2018-05-18 02:54:15 Bootstrap(4216):DbCloseAllTables:Succeeded On Pass 1/10
+2018-05-18 02:54:15 Bootstrap(4216):Completed Step 5 (Stop)
+2018-05-18 02:54:15 Bootstrap(4216):CiGetNextSyncState Starting CiGetNextMcpSyncStateThread With Info 0000000000994560->Step 5
+2018-05-18 02:54:15 SyncStater(15556):CiGetNextMcpSyncStateThread Executing With Info 0000000000994560->Step 5
+2018-05-18 02:54:15 Bootstrap(4216):CiGetNextSyncState Awake with Info 0000000000994560->Step 6
+2018-05-18 02:54:15 Bootstrap(4216):Executing Step 6 (Terminate)
+2018-05-18 02:54:16 Bootstrap(4216):Completed Step 6 (Terminate)
+2018-05-18 02:54:16 Bootstrap(4216):CiGetNextSyncState Starting CiGetNextMcpSyncStateThread With Info 0000000000995DE0->Step 6
+2018-05-18 02:54:16 SyncStater(15556):CiGetNextMcpSyncStateThread Executing With Info 0000000000995DE0->Step 6
+2018-05-18 02:54:16 Bootstrap(4216):CiGetNextSyncState Awake with Info 0000000000995DE0->Step 7
+2018-05-18 02:54:16 Bootstrap(4216):Executing Step 7 (Down)
+2018-05-18 02:54:16 Bootstrap(4216):Completed Step 7 (Down)

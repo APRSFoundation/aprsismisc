@@ -1,0 +1,2097 @@
+
+/*1:1*/
+/*1:11*/
+/*2:1*/
+/*2:15*/
+/*2:23*/
+/*2:31*/
+/*2:46*/
+/*2:61*/
+/*2:72*/
+/*2:80*/
+/*2:89*/
+/*2:98*/
+/*2:106*/
+/*2:113*/
+/*2:120*/
+/*2:134*/
+/*2:142*/
+/*2:150*/
+/*2:174*/
+/*2:199*/
+/*2:214*/
+/*2:232*/
+/*2:246*/
+/*2:253*/
+/*2:261*/
+/*2:269*/
+/*2:282*/
+/*2:290*/
+/*2:298*/
+/*2:306*/
+/*2:313*/
+/*2:321*/
+/*2:329*/
+/*2:335*/
+/*2:343*/
+/*2:386*/
+/*2:414*/
+/*1:17*/
+/*3:1*/
+/*4:1*/
+/*5:1*/
+/*5:13*/
+/*5:15*/
+
+/*5:43*/
+/*6:1*/
+/*6:16*/
+/*6:108*/
+/*6:140*/
+/*6:150*/
+/*6:151*/
+/*6:152*/
+/*6:154*/
+/*6:156*/
+/*6:157*/
+/*6:161*/
+/*6:162*/
+/*6:166*/
+/*6:168*/
+/*6:169*/
+/*6:175*/
+/*6:181*/
+/*6:183*/
+/*6:184*/
+/*6:190*/
+/*6:196*/
+/*6:197*/
+/*6:201*/
+/*6:202*/
+/*6:208*/
+/*6:210*/
+/*6:211*/
+/*6:215*/
+/*6:216*/
+/*6:217*/
+/*6:223*/
+/*6:229*/
+/*6:235*/
+/*6:236*/
+/*6:240*/
+/*6:246*/
+/*6:247*/
+/*6:248*/
+/*6:254*/
+/*6:260*/
+/*6:266*/
+/*6:267*/
+/*6:273*/
+/*6:274*/
+/*6:280*/
+/*6:291*/
+/*6:297*/
+/*6:299*/
+/*6:300*/
+/*6:304*/
+/*6:305*/
+/*6:309*/
+/*6:310*/
+/*6:321*/
+/*6:322*/
+/*6:341*/
+/*6:357*/
+/*6:358*/
+/*6:374*/
+/*6:376*/
+/*6:380*/
+/*6:382*/
+/*6:384*/
+/*6:390*/
+/*6:396*/
+/*6:398*/
+/*6:400*/
+/*6:403*/
+/*6:408*/
+/*6:411*/
+/*6:420*/
+/*6:428*/
+/*6:429*/
+/*6:430*/
+/*6:432*/
+/*6:433*/
+/*6:434*/
+/*6:435*/
+/*6:437*/
+/*6:438*/
+/*6:442*/
+/*6:443*/
+/*6:449*/
+/*6:455*/
+/*6:459*/
+/*6:460*/
+/*6:464*/
+/*6:470*/
+/*6:474*/
+/*6:490*/
+/*6:506*/
+/*6:507*/
+/*6:513*/
+/*6:519*/
+/*6:525*/
+/*6:529*/
+/*6:535*/
+/*6:540*/
+/*6:543*/
+/*6:544*/
+/*6:545*/
+/*6:546*/
+/*6:548*/
+/*6:549*/
+/*6:552*/
+/*6:553*/
+/*6:556*/
+/*6:560*/
+/*6:568*/
+/*6:576*/
+/*6:580*/
+/*6:583*/
+/*6:584*/
+/*6:585*/
+/*6:586*/
+/*6:588*/
+/*6:592*/
+/*6:593*/
+/*6:599*/
+/*6:605*/
+/*6:611*/
+/*6:617*/
+/*6:618*/
+/*6:624*/
+/*6:630*/
+/*6:636*/
+/*6:642*/
+/*6:646*/
+/*6:651*/
+/*6:652*/
+/*6:653*/
+/*6:654*/
+/*6:656*/
+/*6:660*/
+/*6:661*/
+/*6:667*/
+/*6:673*/
+/*6:679*/
+/*6:695*/
+/*6:711*/
+/*6:712*/
+/*6:718*/
+/*6:724*/
+/*6:730*/
+/*6:739*/
+/*6:743*/
+/*6:744*/
+/*6:745*/
+/*6:746*/
+/*6:748*/
+/*6:752*/
+/*6:753*/
+/*6:759*/
+/*6:765*/
+/*6:771*/
+/*6:787*/
+/*6:803*/
+/*6:804*/
+/*6:810*/
+/*6:816*/
+/*6:822*/
+/*6:830*/
+/*6:831*/
+/*6:832*/
+/*6:837*/
+/*6:838*/
+/*6:839*/
+/*6:842*/
+/*6:844*/
+/*6:845*/
+/*6:846*/
+/*6:847*/
+/*6:868*/
+/*6:869*/
+/*6:870*/
+/*6:871*/
+/*6:872*/
+/*6:915*/
+/*6:916*/
+/*6:917*/
+/*6:918*/
+/*6:926*/
+/*6:927*/
+/*6:928*/
+/*6:1268*/
+/*6:1270*/
+/*6:1487*/
+/*6:1496*/
+/*6:1741*/
+/*6:1943*/
+/*6:1967*/
+/*6:1984*/
+/*7:1*/
+/*7:50*/typedef unsigned __int64 uintptr_t;
+/*7:61*/typedef char*va_list;
+/*7:125*/extern void  __va_start(va_list*,...);
+/*7:155*/
+/*5:165*/
+/*5:190*/
+/*5:199*/
+/*5:209*/
+/*5:224*/
+/*5:230*/
+/*5:295*/
+/*5:302*/
+/*5:305*/
+/*5:308*/
+/*5:313*/
+/*5:318*/
+/*5:325*/
+/*5:326*/
+/*5:339*/
+/*5:340*/
+/*5:353*/
+/*5:354*/
+/*5:373*/
+/*5:374*/
+/*5:394*/
+/*5:397*/
+/*5:399*/
+/*5:400*/
+/*5:414*/
+/*5:424*/
+/*5:437*/
+/*5:460*/
+/*5:461*/
+/*5:476*/typedef unsigned __int64 size_t;
+/*5:492*/typedef __int64 intptr_t;
+/*5:510*/typedef __int64 ptrdiff_t;
+/*5:518*/typedef unsigned short wchar_t;
+/*5:523*/typedef unsigned short wint_t;
+/*5:524*/typedef unsigned short wctype_t;
+/*5:546*/
+/*5:548*/ typedef int errcode;
+/*5:553*/typedef int errno_t;
+/*5:557*/typedef  long __time32_t;
+/*5:562*/typedef __int64 __time64_t;
+/*5:570*/typedef __time64_t time_t;
+/*5:600*/
+/*5:629*/
+/*5:645*/
+/*5:650*/
+/*5:2025*/struct threadlocaleinfostruct;
+/*5:2026*/struct threadmbcinfostruct;
+/*5:2027*/typedef struct threadlocaleinfostruct*pthreadlocinfo;
+/*5:2028*/typedef struct threadmbcinfostruct*pthreadmbcinfo;
+/*5:2029*/struct __lc_time_data;
+/*5:2031*/typedef struct localeinfo_struct
+/*5:2032*/{
+/*5:2033*/pthreadlocinfo locinfo;
+/*5:2034*/pthreadmbcinfo mbcinfo;
+/*5:2035*/}_locale_tstruct,*_locale_t;
+/*5:2038*/typedef struct tagLC_ID{
+/*5:2039*/unsigned short wLanguage;
+/*5:2040*/unsigned short wCountry;
+/*5:2041*/unsigned short wCodePage;
+/*5:2042*/}LC_ID,*LPLC_ID;
+/*5:2047*/typedef struct threadlocaleinfostruct{
+/*5:2048*/int refcount;
+/*5:2049*/unsigned int lc_codepage;
+/*5:2050*/unsigned int lc_collate_cp;
+/*5:2051*/unsigned long lc_handle[6];
+/*5:2052*/LC_ID lc_id[6];
+/*5:2053*/struct{
+/*5:2054*/char*locale;
+/*5:2055*/wchar_t*wlocale;
+/*5:2056*/int*refcount;
+/*5:2057*/int*wrefcount;
+/*5:2058*/}lc_category[6];
+/*5:2059*/int lc_clike;
+/*5:2060*/int mb_cur_max;
+/*5:2061*/int*lconv_intl_refcount;
+/*5:2062*/int*lconv_num_refcount;
+/*5:2063*/int*lconv_mon_refcount;
+/*5:2064*/struct lconv*lconv;
+/*5:2065*/int*ctype1_refcount;
+/*5:2066*/unsigned short*ctype1;
+/*5:2067*/const unsigned short*pctype;
+/*5:2068*/const unsigned char*pclmap;
+/*5:2069*/const unsigned char*pcumap;
+/*5:2070*/struct __lc_time_data*lc_time_curr;
+/*5:2071*/}threadlocinfo;
+/*5:2113*/
+/*4:51*/
+/*4:62*/
+/*4:93*/typedef long clock_t;
+/*4:106*/
+/*4:117*/struct tm{
+/*4:118*/int tm_sec;
+/*4:119*/int tm_min;
+/*4:120*/int tm_hour;
+/*4:121*/int tm_mday;
+/*4:122*/int tm_mon;
+/*4:123*/int tm_year;
+/*4:124*/int tm_wday;
+/*4:125*/int tm_yday;
+/*4:126*/int tm_isdst;
+/*4:127*/};
+/*4:132*/
+/*4:137*/
+/*4:141*/
+/*4:142*/   int* __daylight(void);
+/*4:145*/
+/*4:146*/   long* __dstbias(void);
+/*4:149*/
+/*4:150*/   long* __timezone(void);
+/*4:153*/
+/*4:154*/    char** __tzname(void);
+/*4:157*/ errno_t  _get_daylight( int*_Daylight);
+/*4:158*/ errno_t  _get_dstbias( long*_Daylight_savings_bias);
+/*4:159*/ errno_t  _get_timezone( long*_Timezone);
+/*4:160*/ errno_t  _get_tzname( size_t*_ReturnValue, char*_Buffer, size_t _SizeInBytes, int _Index);
+/*4:163*/
+/*4:164*/   char* asctime( const struct tm*_Tm);
+/*4:168*/
+/*4:170*/  char* _ctime32( const __time32_t*_Time);
+/*4:171*/ errno_t  _ctime32_s(  char*_Buf, size_t _SizeInBytes, const __time32_t*_Time);
+/*4:172*/
+/*4:174*/  clock_t  clock(void);
+/*4:175*/ double  _difftime32( __time32_t _Time1, __time32_t _Time2);
+/*4:177*/   struct tm* _gmtime32( const __time32_t*_Time);
+/*4:178*/  errno_t  _gmtime32_s( struct tm*_Tm, const __time32_t*_Time);
+/*4:180*/  struct tm* _localtime32( const __time32_t*_Time);
+/*4:181*/ errno_t  _localtime32_s( struct tm*_Tm, const __time32_t*_Time);
+/*4:183*/ size_t  strftime( char*_Buf, size_t _SizeInBytes,  const char*_Format, const struct tm*_Tm);
+/*4:184*/ size_t  _strftime_l(  char*_Buf, size_t _Max_size,  const char*_Format, const struct tm*_Tm, _locale_t _Locale);
+/*4:186*/  errno_t  _strdate_s(  char*_Buf, size_t _SizeInBytes);
+/*4:187*/
+/*4:188*/char*_strdate(char*_Buffer);
+/*4:190*/  errno_t  _strtime_s(  char*_Buf, size_t _SizeInBytes);
+/*4:191*/
+/*4:192*/char*_strtime(char*_Buffer);
+/*4:194*/ __time32_t  _time32( __time32_t*_Time);
+/*4:195*/ __time32_t  _mktime32( struct tm*_Tm);
+/*4:196*/ __time32_t  _mkgmtime32( struct tm*_Tm);
+/*4:201*/ void  _tzset(void);
+/*4:204*/  double  _difftime64( __time64_t _Time1, __time64_t _Time2);
+/*4:205*/  char* _ctime64( const __time64_t*_Time);
+/*4:206*/ errno_t  _ctime64_s( char*_Buf, size_t _SizeInBytes, const __time64_t*_Time);
+/*4:207*/
+/*4:209*/  struct tm* _gmtime64( const __time64_t*_Time);
+/*4:210*/ errno_t  _gmtime64_s( struct tm*_Tm, const __time64_t*_Time);
+/*4:212*/  struct tm* _localtime64( const __time64_t*_Time);
+/*4:213*/ errno_t  _localtime64_s( struct tm*_Tm, const __time64_t*_Time);
+/*4:215*/ __time64_t  _mktime64( struct tm*_Tm);
+/*4:216*/ __time64_t  _mkgmtime64( struct tm*_Tm);
+/*4:217*/ __time64_t  _time64( __time64_t*_Time);
+/*4:219*/
+/*4:220*/ unsigned  _getsystime( struct tm*_Tm);
+/*4:221*/ unsigned  _setsystime( struct tm*_Tm,unsigned _MilliSec);
+/*4:231*/
+/*4:233*/  wchar_t* _wasctime( const struct tm*_Tm);
+/*4:234*/ errno_t  _wasctime_s(  wchar_t*_Buf, size_t _SizeInWords, const struct tm*_Tm);
+/*4:235*/
+/*4:237*/  wchar_t* _wctime32( const __time32_t*_Time);
+/*4:238*/ errno_t  _wctime32_s(  wchar_t*_Buf, size_t _SizeInWords, const __time32_t*_Time);
+/*4:239*/
+/*4:241*/ size_t  wcsftime( wchar_t*_Buf, size_t _SizeInWords,  const wchar_t*_Format, const struct tm*_Tm);
+/*4:242*/ size_t  _wcsftime_l( wchar_t*_Buf, size_t _SizeInWords,  const wchar_t*_Format, const struct tm*_Tm, _locale_t _Locale);
+/*4:244*/ errno_t  _wstrdate_s(  wchar_t*_Buf, size_t _SizeInWords);
+/*4:245*/
+/*4:246*/wchar_t*_wstrdate(wchar_t*_Buffer);
+/*4:248*/ errno_t  _wstrtime_s(  wchar_t*_Buf, size_t _SizeInWords);
+/*4:249*/
+/*4:250*/wchar_t*_wstrtime(wchar_t*_Buffer);
+/*4:252*/  wchar_t* _wctime64( const __time64_t*_Time);
+/*4:253*/ errno_t  _wctime64_s(  wchar_t*_Buf, size_t _SizeInWords, const __time64_t*_Time);
+/*4:254*/
+/*8:1*/
+/*8:46*/static  wchar_t* _wctime(const time_t*_Time)
+/*8:47*/{
+/*8:50*/return _wctime64(_Time);
+/*8:52*/}
+/*8:54*/static  errno_t  _wctime_s(wchar_t*_Buffer,size_t _SizeInWords,const time_t*_Time)
+/*8:55*/{
+/*8:56*/return _wctime64_s(_Buffer,_SizeInWords,_Time);
+/*8:57*/}
+/*8:64*/
+/*9:1*/
+/*9:84*/static  double  difftime(time_t _Time1,time_t _Time2)
+/*9:85*/{
+/*9:86*/return _difftime64(_Time1,_Time2);
+/*9:87*/}
+/*9:88*/ static  char* ctime(const time_t*_Time)
+/*9:89*/{
+/*9:92*/return _ctime64(_Time);
+/*9:94*/}
+/*9:101*/ static  struct tm* gmtime(const time_t*_Time)
+/*9:102*/{
+/*9:105*/return _gmtime64(_Time);
+/*9:107*/}
+/*9:114*/ static  struct tm* localtime(const time_t*_Time)
+/*9:115*/{
+/*9:118*/return _localtime64(_Time);
+/*9:120*/}
+/*9:121*/static  errno_t  localtime_s(struct tm*_Tm,const time_t*_Time)
+/*9:122*/{
+/*9:123*/return _localtime64_s(_Tm,_Time);
+/*9:124*/}
+/*9:125*/static  time_t  mktime(struct tm*_Tm)
+/*9:126*/{
+/*9:127*/return _mktime64(_Tm);
+/*9:128*/}
+/*9:129*/static  time_t  _mkgmtime(struct tm*_Tm)
+/*9:130*/{
+/*9:131*/return _mkgmtime64(_Tm);
+/*9:132*/}
+/*9:133*/static  time_t  time(time_t*_Time)
+/*9:134*/{
+/*9:135*/return _time64(_Time);
+/*9:136*/}
+/*9:142*/
+/*4:269*/
+/*4:273*/
+/*4:279*/  extern int daylight;
+/*4:280*/  extern long timezone;
+/*4:281*/  extern char*tzname[2];
+/*4:284*/  void  tzset(void);
+/*4:298*/
+/*3:17*/
+/*3:22*/typedef time_t TIMESTAMP_F;
+/*3:24*/
+/*3:31*/typedef double MILLISECS_F;
+/*3:33*/
+/*3:38*/typedef long BOOLEAN_F;
+/*3:40*/
+/*3:46*/typedef long COUNT_F;
+/*3:48*/
+/*3:53*/typedef long INDEX_F;
+/*3:55*/
+/*3:61*/typedef long SIZE_F;
+/*3:63*/
+/*3:74*/typedef long long COUNT64_F;
+/*3:79*/
+/*3:89*/typedef long long INDEX64_F;
+/*3:94*/
+/*3:105*/typedef long long SIZE64_F;
+/*3:110*/
+/*3:118*/typedef long ID_F;
+/*3:120*/
+/*3:126*/typedef char NAME_F[32];
+/*3:128*/
+/*3:134*/typedef char PATHNAME_F[64];
+/*3:136*/
+/*3:142*/typedef long STATUS_F;
+/*3:144*/
+/*3:151*/typedef void*POINTER_F;
+/*3:153*/
+/*3:161*/typedef char*STRING_F;
+/*3:163*/
+/*3:171*/typedef char GUID_F[16];
+/*3:174*/
+/*1:23*/
+/*10:1*/
+/*10:10*/
+/*10:18*/typedef BOOLEAN_F(*LOCK_F)(POINTER_F Arg,COUNT_F Line,STRING_F File);
+/*10:20*/
+/*10:27*/typedef void(*UNLOCK_F)(POINTER_F Arg,COUNT_F Line,STRING_F File);
+/*10:29*/
+/*10:35*/typedef STRING_F(*TO_STRING_F)(SIZE_F BufSize,STRING_F Buffer,
+/*10:36*/SIZE_F ValSize,POINTER_F Value,
+/*10:37*/POINTER_F Addnl);
+/*10:39*/
+/*10:45*/typedef BOOLEAN_F(*FROM_STRING_F)(SIZE_F BufSize,STRING_F Buffer,
+/*10:46*/SIZE_F ValSize,POINTER_F Value,
+/*10:47*/POINTER_F Addnl);
+/*10:48*/
+/*10:54*/typedef BOOLEAN_F(*TO_STRING_LENGTH_F)(SIZE_F ValSize,POINTER_F Value,
+/*10:55*/POINTER_F Addnl);
+/*10:58*/
+/*1:29*/
+/*11:1*/
+/*11:17*/
+/*11:26*/typedef enum DATATYPE_V
+/*11:27*/{DATATYPE_LONG,
+/*11:28*/DATATYPE_SHORT,
+/*11:29*/DATATYPE_INT,
+/*11:30*/DATATYPE_DOUBLE,
+/*11:31*/DATATYPE_FLOAT,
+/*11:32*/DATATYPE_CHAR,
+/*11:33*/DATATYPE_STRING,
+/*11:34*/DATATYPE_ID,
+/*11:35*/DATATYPE_POINTER,
+/*11:36*/DATATYPE_TIMESTAMP,
+/*11:37*/DATATYPE_SELF,
+/*11:38*/DATATYPE_ENUM,
+/*11:39*/DATATYPE_STRUCT,
+/*11:40*/DATATYPE_ARRAY,
+/*11:41*/DATATYPE_CUSTOM,
+/*11:42*/DATATYPE_LAST,
+/*11:43*/DATATYPE_CONST,
+/*11:44*/DATATYPE_BOOLEAN,
+/*11:45*/DATATYPE_GUID,
+/*11:46*/DATATYPE_NSTRING,
+/*11:47*/DATATYPE_SIZET
+/*11:48*/}DATATYPE_V;
+/*11:50*/
+/*11:59*/
+/*11:65*/typedef struct DATATYPE_ROUTINES_S
+/*11:66*/{TO_STRING_F ToString;
+/*11:67*/FROM_STRING_F FromString;
+/*11:68*/TO_STRING_LENGTH_F MaxCharsRtn;
+/*11:69*/}DATATYPE_ROUTINES_S;
+/*11:71*/
+/*11:84*/typedef struct DESCRIPTOR_S
+/*11:85*/{STRING_F Name;
+/*11:86*/INDEX_F Offset;
+/*11:87*/SIZE_F Size;
+/*11:88*/DATATYPE_V Type;
+/*11:89*/COUNT_F Count;
+/*11:90*/POINTER_F Addnl;
+/*11:91*/DATATYPE_ROUTINES_S Routines;
+/*11:92*/}DESCRIPTOR_S;
+/*11:94*/extern DESCRIPTOR_S DDESCRIPTOR_S[];
+/*11:96*/
+/*11:101*/typedef struct DESCRIPTION_S
+/*11:102*/{ID_F MagicID;
+/*11:103*/COUNT_F Count;
+/*11:104*/DESCRIPTOR_S Descriptors[1];
+/*11:105*/}DESCRIPTION_S;
+/*11:107*/extern DESCRIPTOR_S DDESCRIPTION_S[];
+/*11:111*/
+/*11:120*/typedef struct ENUM_TRANSLATION_S
+/*11:121*/{long Code;
+/*11:122*/STRING_F Printable;
+/*11:123*/}ENUM_TRANSLATION_S;
+/*11:125*/extern DESCRIPTOR_S DENUM_TRANSLATION_S[];
+/*11:127*/
+/*11:134*/typedef struct EMPTY_S
+/*11:135*/{char Dummy;
+/*11:136*/}EMPTY_S;
+/*11:138*/extern DESCRIPTOR_S DEMPTY_S[];
+/*11:141*/
+/*1:36*/
+/*13:1*/
+/*13:36*/
+/*14:1*/
+/*15:3*/
+/*15:4*/
+/*15:5*/
+/*15:6*/
+/*15:8*/
+/*16:1*/
+/*16:463*/
+/*17:1*/
+/*17:17*/
+/*17:26*/typedef struct MUTEX_SEMAPHORE_S
+/*17:27*/{ID_F MagicID;
+/*17:28*/STRING_F Name;
+/*17:29*/POINTER_F Handle;
+/*17:30*/COUNT_F Revision;
+/*17:31*/COUNT_F Nesting;
+/*17:32*/COUNT_F Nested;
+/*17:33*/COUNT_F NoContest;
+/*17:34*/COUNT_F Delayed;
+/*17:35*/COUNT_F Locks;
+/*17:36*/COUNT_F Timeouts;
+/*17:37*/COUNT_F Unlocks;
+/*17:38*/struct
+/*17:39*/{char Name[32];
+/*17:40*/INDEX_F Index;
+/*17:41*/TIMESTAMP_F Time;
+/*17:42*/STRING_F File;
+/*17:43*/COUNT_F Line;
+/*17:44*/}Owner,PreviousOwner,BlockedBy,LastBlock;
+/*17:45*/}MUTEX_SEMAPHORE_S;
+/*17:49*/extern DESCRIPTOR_S DMUTEX_SEMAPHORE_S[];
+/*17:51*/
+/*17:60*/typedef struct EVENT_SEMAPHORE_S
+/*17:61*/{ID_F MagicID;
+/*17:62*/STRING_F Name;
+/*17:63*/POINTER_F Handle;
+/*17:64*/COUNT_F Revision;
+/*17:65*/TIMESTAMP_F Time;
+/*17:66*/STRING_F File;
+/*17:67*/COUNT_F Line;
+/*17:68*/}EVENT_SEMAPHORE_S;
+/*17:72*/extern DESCRIPTOR_S DEVENT_SEMAPHORE_S[];
+/*17:74*/
+/*17:85*/typedef struct CRITICAL_SECTION_S
+/*17:86*/{ID_F MagicID;
+/*17:87*/STRING_F Name;
+/*17:89*/COUNT_F Locks;
+/*17:90*/COUNT_F DelayedLocks;
+/*17:92*/struct THREAD_S*Owner;
+/*17:93*/POINTER_F CritSec;
+/*17:94*/}CRITICAL_SECTION_S;
+/*17:98*/extern DESCRIPTOR_S DCRITICAL_SECTION_S[];
+/*17:100*/
+/*17:106*/typedef struct READ_WRITE_LOCK_S
+/*17:107*/{ID_F MagicID;
+/*17:108*/STRING_F Name;
+/*17:110*/COUNT_F ReadLocks;
+/*17:111*/COUNT_F DelayedReads;
+/*17:112*/COUNT_F ReadNested;
+/*17:113*/COUNT_F Promotions;
+/*17:114*/COUNT_F WriteLocks;
+/*17:115*/COUNT_F DelayedWritesReaders;
+/*17:116*/COUNT_F DelayedWritesWriter;
+/*17:117*/COUNT_F WriteNested;
+/*17:119*/volatile COUNT_F PendingReaders;
+/*17:120*/COUNT_F MaxPendingReaders;
+/*17:121*/volatile COUNT_F ActiveReaders;
+/*17:122*/COUNT_F MaxActiveReaders;
+/*17:123*/volatile COUNT_F ReadersSize;
+/*17:124*/struct
+/*17:125*/{struct THREAD_S*Thread;
+/*17:126*/char ThreadName[32];
+/*17:127*/COUNT_F Nesting;
+/*17:128*/STRING_F File;
+/*17:129*/COUNT_F Line;
+/*17:130*/}*Readers;
+/*17:131*/volatile COUNT_F PendingWriters;
+/*17:132*/COUNT_F MaxPendingWriters;
+/*17:134*/struct THREAD_S*ActiveWriter;
+/*17:135*/char WriterName[32];
+/*17:136*/COUNT_F ActiveNesting;
+/*17:137*/STRING_F File;
+/*17:138*/COUNT_F Line;
+/*17:139*/CRITICAL_SECTION_S*CritSec;
+/*17:140*/MUTEX_SEMAPHORE_S*WriteLock;
+/*17:141*/EVENT_SEMAPHORE_S*ReaderNotifyEvent;
+/*17:142*/EVENT_SEMAPHORE_S*WriterNotifyEvent;
+/*17:143*/COUNT_F EventTimeouts;
+/*17:144*/}READ_WRITE_LOCK_S;
+/*17:148*/extern DESCRIPTOR_S DREAD_WRITE_LOCK_S[];
+/*17:150*/
+/*17:161*/typedef struct FIRST_TIME_ONLY_S
+/*17:162*/{BOOLEAN_F DidIt;
+/*17:163*/MUTEX_SEMAPHORE_S*Lock;
+/*17:164*/}FIRST_TIME_ONLY_S;
+/*17:167*/
+/*15:38*/
+/*15:40*/
+/*15:66*/
+/*15:96*/
+/*15:125*/
+/*15:185*/
+/*15:191*/
+/*15:198*/
+/*15:205*/
+/*15:212*/
+/*15:219*/
+/*15:226*/
+/*15:237*/
+/*15:248*/typedef struct HEAP_PACKET_S
+/*15:249*/{ID_F MagicID;
+/*15:250*/POINTER_F Heap;
+/*15:268*/TIMESTAMP_F Time;
+/*15:274*/STRING_F File;
+/*15:275*/COUNT_F Line;
+/*15:283*/INDEX_F TrackingIndex;
+/*15:287*/SIZE64_F Size;
+/*15:288*/SIZE64_F RealSize;
+/*15:289*/ID_F StartMagic;
+/*15:290*/}HEAP_PACKET_S;
+/*15:294*/extern DESCRIPTOR_S DHEAP_PACKET_S[];
+/*15:298*/
+/*15:301*/typedef struct HEAP_USER_COUNT_S
+/*15:302*/{STRING_F File;
+/*15:303*/COUNT_F Line;
+/*15:304*/COUNT64_F Allocates;
+/*15:305*/COUNT64_F Frees;
+/*15:306*/}HEAP_USER_COUNT_S;
+/*15:308*/extern DESCRIPTOR_S DHEAP_USER_COUNT_S[];
+/*15:310*/
+/*15:313*/typedef struct HEAP_USER_S
+/*15:314*/{STRING_F Name;
+/*15:315*/struct HEAP_S*Heap;
+/*15:316*/COUNT_F UserSize;
+/*15:317*/COUNT_F UserCount;
+/*15:318*/HEAP_USER_COUNT_S*Users;
+/*15:319*/}HEAP_USER_S;
+/*15:321*/extern DESCRIPTOR_S DHEAP_USER_S[];
+/*15:323*/
+/*15:332*/typedef struct HEAP_S
+/*15:333*/{ID_F MagicID;
+/*15:334*/STRING_F Name;
+/*15:336*/INDEX_F MpHeap;
+/*15:338*/void*(*MallocRtn)(SIZE64_F Size);
+/*15:339*/void(*FreeRtn)(void*Pkt);
+/*15:340*/void*(*ReallocRtn)(void*Pkt,SIZE64_F Size);
+/*15:342*/LOCK_F LockRtn;
+/*15:343*/UNLOCK_F UnlockRtn;
+/*15:344*/POINTER_F LockArg;
+/*15:345*/MUTEX_SEMAPHORE_S*Lock;
+/*15:347*/BOOLEAN_F AllocateOnly;
+/*15:348*/SIZE64_F AllocationSize;
+/*15:349*/COUNT64_F Revision;
+/*15:351*/SIZE64_F BytesInUse;
+/*15:352*/SIZE64_F RealBytesInUse;
+/*15:353*/COUNT_F PacketsInUse;
+/*15:354*/SIZE64_F MaxBytes;
+/*15:355*/COUNT_F MaxPackets;
+/*15:357*/SIZE64_F MaxAllocateSize;
+/*15:358*/TIMESTAMP_F MaxAllocateTime;
+/*15:359*/STRING_F MaxAllocateThread;
+/*15:360*/STRING_F MaxAllocateFile;
+/*15:361*/COUNT_F MaxAllocateLine;
+/*15:363*/SIZE64_F MaxFreeSize;
+/*15:364*/TIMESTAMP_F MaxFreeTime;
+/*15:365*/STRING_F MaxFreeThread;
+/*15:366*/STRING_F MaxFreeFile;
+/*15:367*/COUNT_F MaxFreeLine;
+/*15:369*/COUNT64_F Allocates;
+/*15:370*/COUNT64_F LargeAllocates;
+/*15:371*/COUNT64_F Deallocates;
+/*15:372*/COUNT64_F LargeDeallocates;
+/*15:373*/COUNT64_F Reallocates;
+/*15:374*/COUNT64_F Compactions;
+/*15:375*/COUNT64_F NearMisses;
+/*15:376*/INDEX_F FirstFreeIndex;
+/*15:377*/COUNT_F TrackingCount;
+/*15:378*/HEAP_PACKET_S**Trackings;
+/*15:379*/HEAP_USER_S*Users;
+/*15:387*/}HEAP_S;
+/*15:391*/extern DESCRIPTOR_S DHEAP_S[];
+/*15:393*/typedef struct MP_HEAP_STATISTICS_S{
+/*15:394*/COUNT_F Contention;
+/*15:395*/BOOLEAN_F DeferCompact;
+/*15:396*/BOOLEAN_F LargeFreeList;
+/*15:397*/struct
+/*15:398*/{COUNT64_F Allocates;
+/*15:399*/COUNT64_F Frees;
+/*15:400*/SIZE64_F Size;
+/*15:401*/COUNT_F Packets;
+/*15:402*/}Total;
+/*15:403*/struct
+/*15:404*/{COUNT_F Count;
+/*15:405*/SIZE64_F Committed;
+/*15:406*/SIZE64_F UnCommitted;
+/*15:407*/}Regions;
+/*15:408*/struct
+/*15:409*/{COUNT64_F Allocates;
+/*15:410*/COUNT64_F Frees;
+/*15:411*/SIZE64_F Size;
+/*15:412*/COUNT_F Packets;
+/*15:413*/}Lookaside;
+/*15:414*/struct
+/*15:415*/{COUNT64_F Double;
+/*15:416*/COUNT64_F Frees;
+/*15:417*/COUNT64_F Size;
+/*15:418*/COUNT_F Packets;
+/*15:419*/}Delayed;
+/*15:420*/struct
+/*15:421*/{COUNT64_F Lookaside;
+/*15:422*/COUNT64_F Opportunistic;
+/*15:423*/COUNT64_F Delayed;
+/*15:424*/}Hints;
+/*15:425*/struct
+/*15:426*/{COUNT64_F Failures;
+/*15:427*/COUNT64_F FailureSize;
+/*15:428*/COUNT64_F Recoveries;
+/*15:429*/COUNT64_F RecoverySize;
+/*15:430*/}CloseCalls;
+/*15:431*/}MP_HEAP_STATISTICS_S;
+/*15:433*/extern DESCRIPTOR_S DMP_HEAP_STATISTICS_S[];
+/*15:435*/typedef struct VIRTUAL_SPACE_CATEGORY_INFO_S
+/*15:436*/{unsigned long Count;
+/*15:437*/double Smallest;
+/*15:438*/double Average;
+/*15:439*/double Largest;
+/*15:440*/double Total;
+/*15:441*/}VIRTUAL_SPACE_CATEGORY_INFO_S;
+/*15:443*/typedef struct VIRTUAL_SPACE_INFO_S
+/*15:444*/{VIRTUAL_SPACE_CATEGORY_INFO_S Committed,Free,Reserved,Other;
+/*15:445*/}VIRTUAL_SPACE_INFO_S;
+/*15:447*/extern DESCRIPTOR_S DVIRTUAL_SPACE_INFO_S[];
+/*15:449*/typedef struct CRUNTIME_HEAP_CATEGORY_INFO_S
+/*15:450*/{COUNT_F Count;
+/*15:451*/SIZE64_F Smallest;
+/*15:452*/SIZE64_F Average;
+/*15:453*/SIZE64_F Largest;
+/*15:454*/SIZE64_F Total;
+/*15:455*/}CRUNTIME_HEAP_CATEGORY_INFO_S;
+/*15:457*/typedef struct CRUNTIME_HEAP_INFO_S
+/*15:458*/{COUNT_F Chunks;
+/*15:459*/CRUNTIME_HEAP_CATEGORY_INFO_S InUse,Free;
+/*15:460*/}CRUNTIME_HEAP_INFO_S;
+/*15:462*/extern DESCRIPTOR_S DCRUNTIME_HEAP_INFO_S[];
+/*15:464*/typedef struct VIRTUAL_LARGE_BUCKET_S
+/*15:465*/{SIZE64_F MaxSize;
+/*15:466*/char Size[16];
+/*15:467*/volatile POINTER_F FreeList;
+/*15:468*/COUNT_F HitCount;
+/*15:469*/COUNT_F FreeCount;
+/*15:470*/COUNT_F InUseCount;
+/*15:471*/COUNT_F AccessCount;
+/*15:472*/COUNT_F AllocLoops;
+/*15:473*/COUNT_F FreeLoops;
+/*15:474*/}VIRTUAL_LARGE_BUCKET_S;
+/*15:476*/extern DESCRIPTOR_S DVIRTUAL_LARGE_BUCKET_S[];
+/*15:480*/
+/*18:1*/
+/*18:167*/
+/*14:27*/extern DESCRIPTOR_S DSTRING_F[];
+/*14:29*/
+/*14:34*/typedef void(*RESTART_CURSOR_F)(POINTER_F Cursor);
+/*14:36*/
+/*14:41*/typedef COUNT_F(*GET_CURSOR_COUNT_F)(POINTER_F Cursor);
+/*14:43*/
+/*14:48*/typedef POINTER_F(*GET_CURSOR_NEXT_F)(POINTER_F Cursor);
+/*14:50*/
+/*14:55*/typedef void(*DESTROY_CURSOR_F)(POINTER_F Cursor);
+/*14:57*/
+/*14:61*/typedef enum CURSOR_TYPE_V
+/*14:62*/{ARRAY_CURSOR,
+/*14:63*/LINKED_CURSOR,
+/*14:64*/CUSTOM_CURSOR,
+/*14:65*/LAST_CURSOR
+/*14:66*/}CURSOR_TYPE_V;
+
+/*14:68*/
+/*14:94*/typedef struct CURSOR_S
+/*14:95*/{ID_F MagicID;
+/*14:96*/STRING_F Name;
+/*14:97*/CURSOR_TYPE_V Type;
+/*14:98*/SIZE_F Size;
+/*14:99*/COUNT_F*Count;
+/*14:100*/INDEX_F LinkOffset;
+/*14:101*/POINTER_F*First;
+/*14:102*/COUNT_F*CurrentRevision;
+/*14:103*/COUNT_F CreatedRevision;
+/*14:104*/INDEX_F Index;
+/*14:105*/POINTER_F NextP;
+/*14:106*/DESCRIPTOR_S*Descriptors;
+/*14:107*/POINTER_F UserArg;
+/*14:108*/LOCK_F LockRtn;
+/*14:109*/UNLOCK_F UnlockRtn;
+/*14:110*/POINTER_F LockArg;
+/*14:111*/RESTART_CURSOR_F Restart;
+/*14:112*/GET_CURSOR_COUNT_F GetCount;
+/*14:113*/GET_CURSOR_NEXT_F Next;
+/*14:114*/DESTROY_CURSOR_F Destroy;
+/*14:115*/TIMESTAMP_F Created;
+/*14:116*/STRING_F File;
+/*14:117*/COUNT_F Line;
+/*14:118*/}CURSOR_S;
+/*14:122*/extern DESCRIPTOR_S DCURSOR_S[];
+/*14:124*/
+/*14:148*/typedef struct POINTER_ARRAY_S
+/*14:149*/{ID_F MagicID;
+/*14:150*/STRING_F Name;
+/*14:151*/DESCRIPTOR_S*Descriptors;
+/*14:152*/COUNT_F Revision;
+/*14:153*/COUNT_F Count;
+/*14:154*/COUNT_F Allocated;
+/*14:155*/HEAP_S*Heap;
+/*14:156*/BOOLEAN_F DestroyHeap;
+/*14:157*/POINTER_F*Array;
+/*14:158*/POINTER_F*PreviousArray;
+/*14:159*/LOCK_F LockRtn;
+/*14:160*/UNLOCK_F UnlockRtn;
+/*14:161*/POINTER_F LockArg;
+/*14:162*/MUTEX_SEMAPHORE_S*Lock;
+/*14:163*/}POINTER_ARRAY_S;
+/*14:167*/extern DESCRIPTOR_S DPOINTER_ARRAY_S[];
+/*14:169*/
+/*14:178*/typedef struct QUEUE_USAGE_S
+/*14:179*/{double LessEq;
+/*14:180*/TIMESTAMP_F Last;
+/*14:181*/COUNT_F Hits;
+/*14:182*/}QUEUE_USAGE_S;
+/*14:186*/typedef struct QUEUE_S
+/*14:187*/{ID_F MagicID;
+/*14:188*/STRING_F Name;
+/*14:189*/DESCRIPTOR_S*Descriptors;
+/*14:190*/void(*ServerRtn)(POINTER_F ServerArg);
+/*14:191*/POINTER_F ServerArg;
+/*14:192*/BOOLEAN_F Shutdown;
+/*14:193*/COUNT_F MaxWaiters;
+/*14:194*/COUNT_F MaxServers;
+/*14:195*/COUNT_F Allowed;
+/*14:196*/COUNT_F MaxEver;
+/*14:197*/COUNT_F MaxLength;
+/*14:198*/COUNT_F Waiters;
+/*14:199*/COUNT_F Servers;
+/*14:200*/COUNT_F Directs;
+/*14:201*/COUNT_F Delays;
+/*14:202*/COUNT_F Misses;
+/*14:203*/COUNT_F Wraps;
+/*14:204*/COUNT_F Revision;
+/*14:205*/MUTEX_SEMAPHORE_S*Lock;
+/*14:206*/INDEX_F Next;
+/*14:207*/INDEX_F Last;
+/*14:208*/COUNT_F Size;
+/*14:209*/COUNT_F Count;
+/*14:210*/POINTER_F*pEntries;
+/*14:211*/MILLISECS_F*msEntries;
+/*14:212*/POINTER_ARRAY_S*IdleServerArray;
+/*14:214*/TIMESTAMP_F LastEmpty;
+/*14:215*/MILLISECS_F CurrentStart;
+/*14:216*/COUNT_F CurrentMaxLength;
+/*14:217*/MILLISECS_F CurrentMaxAge;
+/*14:219*/QUEUE_USAGE_S Lengths[8],Ages[8],Durations[8];
+/*14:221*/}QUEUE_S;
+/*14:225*/extern DESCRIPTOR_S DQUEUE_S[];
+/*14:227*/
+/*14:230*/typedef unsigned long HASH_VALUE_F;
+/*14:232*/
+/*14:247*/typedef struct HASH_PACKET_S
+/*14:248*/{ID_F MagicID;
+/*14:249*/HASH_VALUE_F KeyHashValue;
+/*14:253*/POINTER_F Value;
+/*14:254*/struct HASH_PACKET_S*Prior;
+/*14:255*/struct HASH_PACKET_S*Next;
+/*14:256*/}HASH_PACKET_S;
+/*14:269*/extern DESCRIPTOR_S DHASH_PACKET_S[];
+/*14:271*/
+/*14:281*/typedef struct HASH_CHAIN_S
+/*14:282*/{COUNT_F Length;
+/*14:283*/COUNT_F MaxLength;
+/*14:284*/HASH_PACKET_S*First;
+/*14:285*/HASH_PACKET_S*Last;
+/*14:286*/}HASH_CHAIN_S;
+/*14:290*/extern DESCRIPTOR_S DHASH_CHAIN_S[];
+/*14:292*/
+/*14:305*/struct HASH_S;
+/*14:306*/typedef unsigned long(*HASH_KEY_HASH_ROUTINE_F)(struct HASH_S*Hash,const void*KeyOrValue,BOOLEAN_F KeySpecified,POINTER_F UserArg);
+/*14:308*/
+/*14:315*/typedef BOOLEAN_F(*HASH_KEY_COMPARE_ROUTINE_F)(struct HASH_S*Hash,const void*Key,POINTER_F Value,POINTER_F UserArg);
+/*14:317*/
+/*14:336*/typedef struct HASH_S
+/*14:337*/{ID_F MagicID;
+/*14:338*/STRING_F Name;
+/*14:339*/DESCRIPTOR_S*Descriptors;
+/*14:340*/LOCK_F LockRtn;
+/*14:341*/UNLOCK_F UnlockRtn;
+/*14:342*/POINTER_F LockArg;
+/*14:343*/MUTEX_SEMAPHORE_S*Lock;
+/*14:344*/HEAP_S*Heap;
+/*14:345*/BOOLEAN_F DestroyHeap;
+/*14:346*/SIZE_F KeySize;
+/*14:347*/COUNT_F KeysInUse;
+/*14:348*/COUNT_F Inserts;
+/*14:349*/COUNT_F Updates;
+/*14:350*/COUNT_F Deletes;
+/*14:351*/COUNT_F Lookups;
+/*14:352*/COUNT_F Revision;
+/*14:353*/TIMESTAMP_F UpdateTime;
+/*14:354*/STRING_F File;
+/*14:355*/COUNT_F Line;
+/*14:356*/BOOLEAN_F Rehashing;
+/*14:357*/COUNT_F Rehashes;
+/*14:358*/MILLISECS_F RehashTime;
+/*14:359*/COUNT64_F RehashCount;
+/*14:360*/COUNT_F KeyChecksLong;
+/*14:361*/COUNT_F KeyChecksCheap;
+/*14:362*/COUNT_F ChainCalcs;
+/*14:363*/COUNT_F ChainCount;
+/*14:364*/COUNT_F UsedCount;
+/*14:365*/COUNT_F MaxChainLength;
+/*14:366*/double LastAvgChainLength;
+/*14:367*/HASH_CHAIN_S*Chains;
+/*14:368*/HASH_CHAIN_S Free;
+/*14:369*/COUNT_F LongKeys;
+/*14:370*/COUNT_F ExtentCount;
+/*14:371*/POINTER_F*Extents;
+/*14:372*/HASH_KEY_HASH_ROUTINE_F KeyHashRtn;
+/*14:373*/HASH_KEY_COMPARE_ROUTINE_F KeyCompareRtn;
+/*14:374*/POINTER_F KeyCallbackUserArg;
+/*14:375*/}HASH_S;
+/*14:379*/extern DESCRIPTOR_S DHASH_S[];
+/*14:381*/
+/*14:396*/typedef struct KEYED_HASH_S
+/*14:397*/{ID_F MagicID;
+/*14:398*/STRING_F Name;
+/*14:399*/STRING_F KeyFields;
+/*14:400*/SIZE_F KeySize;
+/*14:401*/DESCRIPTOR_S*KeyDescription;
+/*14:402*/HASH_S*Hash;
+/*14:403*/BOOLEAN_F Local;
+/*14:404*/}KEYED_HASH_S;
+/*14:408*/extern DESCRIPTOR_S DKEYED_HASH_S[];
+/*14:410*/
+/*14:420*/typedef struct CHUNKED_BUFFER_S
+/*14:421*/{HEAP_S*Heap;
+/*14:422*/COUNT_F TotalSize;
+/*14:423*/COUNT_F ChunkCount;
+/*14:424*/struct
+/*14:425*/{SIZE_F Size;
+/*14:426*/SIZE_F Left;
+/*14:427*/STRING_F Next;
+/*14:428*/char Data[1];
+/*14:429*/}*Current,**Chunks;
+/*14:430*/}CHUNKED_BUFFER_S;
+/*14:432*/
+/*14:442*/typedef struct GROWING_BUFFER_S
+/*14:443*/{HEAP_S*Heap;
+/*14:444*/STRING_F Buffer;
+/*14:445*/SIZE_F Size;
+/*14:446*/SIZE_F Left;
+/*14:447*/STRING_F Next;
+/*14:448*/}GROWING_BUFFER_S;
+/*14:450*/
+/*14:453*/typedef struct GROWING_BUFFER_STREAM_S
+/*14:454*/{STRING_F Buffer;
+/*14:455*/COUNT_F Size;
+/*14:456*/COUNT_F Line;
+/*14:457*/COUNT_F Next;
+/*14:458*/}GROWING_BUFFER_STREAM_S;
+/*14:460*/extern DESCRIPTOR_S DGROWING_BUFFER_STREAM_S[];
+/*14:463*/
+/*19:1*/
+/*19:50*/
+/*12:9*/typedef struct TH_DELAY_INFO_S
+/*12:10*/{STRING_F Name;
+/*12:11*/STRING_F Group;
+/*12:12*/MUTEX_SEMAPHORE_S*GroupLock;
+/*12:13*/COUNT_F PassesCompleted;
+/*12:14*/TIMESTAMP_F LastStart;
+/*12:15*/TIMESTAMP_F LastStop;
+/*12:16*/COUNT_F LastElapsed;
+/*12:17*/COUNT_F Elapsed;
+/*12:18*/BOOLEAN_F Active;
+/*12:19*/TIMESTAMP_F ETA;
+/*12:20*/COUNT_F TotalCount;
+/*12:21*/COUNT_F CurrentCount;
+/*12:22*/COUNT_F PercentComplete;
+/*12:23*/COUNT_F msSleep;
+/*12:24*/MILLISECS_F msStart;
+/*12:25*/}TH_DELAY_INFO_S;
+/*12:27*/extern DESCRIPTOR_S DTH_DELAY_INFO_S[];
+/*12:28*/extern HASH_S*ThDelayLockHash ;
+/*12:29*/extern HASH_S*ThDelayInfoHash ;
+/*12:33*/
+/*20:1*/
+/*20:11*/typedef unsigned long INTEGER_ID_F;
+/*20:13*/typedef char STATION_ID_F[12];
+/*20:14*/typedef char VERSION_F[32];
+/*20:15*/typedef short APRS_SYMBOL_F;
+/*20:16*/typedef char APRS_DATA_TYPE_F;
+/*20:18*/typedef char IP_ADDRESS_F[16];
+/*20:19*/typedef char DNS_NAME_F[64];
+/*20:21*/typedef double DISTANCE_F;
+/*20:22*/typedef double ALTITUDE_F;
+/*20:23*/typedef double COORDINATE_F;
+/*20:24*/typedef double BEARING_F;
+/*20:25*/typedef double SPEED_F;
+/*20:27*/typedef struct COORDINATE_S
+/*20:28*/{COORDINATE_F Latitude;
+/*20:29*/COORDINATE_F Longitude;
+/*20:30*/}COORDINATE_S;
+/*20:34*/
+/*21:1*/
+/*22:1*/
+/*22:36*/
+/*23:1*/
+/*23:50*/
+/*24:1*/
+/*25:1*/
+/*25:463*/
+/*26:1*/
+/*27:1*/
+/*28:1*/
+/*28:155*/
+/*27:34*/
+/*26:19*/
+/*26:28*/typedef struct DG_STATISTICS_S
+/*26:29*/{STRING_F Name;
+/*26:30*/volatile COUNT_F Hits;
+/*26:31*/volatile MILLISECS_F MinTime;
+/*26:32*/volatile MILLISECS_F MaxTime;
+/*26:33*/volatile MILLISECS_F MaxTimeSince;
+/*26:34*/volatile TIMESTAMP_F SinceWhen;
+/*26:35*/volatile TIMESTAMP_F MaxWhenEver;
+/*26:36*/volatile TIMESTAMP_F MaxWhenSince;
+/*26:37*/volatile MILLISECS_F TotalTime;
+/*26:38*/}DG_STATISTICS_S;
+/*26:40*/extern DESCRIPTOR_S DDG_STATISTICS_S[];
+/*26:42*/typedef enum DG_COUNTER_TYPE_V
+/*26:43*/{COUNT_COUNTER='C',
+/*26:44*/DOUBLE_COUNTER='D',
+/*26:45*/TIMESTAMP_COUNTER='T',
+/*26:46*/STRUCTURE_COUNTER='S'
+/*26:47*/}DG_COUNTER_TYPE_V;
+/*26:49*/
+/*26:55*/typedef struct DG_COUNTER_S
+/*26:56*/{ID_F MagicID;
+/*26:57*/STRING_F Name;
+/*26:58*/DG_COUNTER_TYPE_V Type;
+/*26:59*/volatile void*pValue;
+/*26:60*/DESCRIPTOR_S*Description;
+/*26:61*/}DG_COUNTER_S;
+/*26:65*/extern DESCRIPTOR_S DDG_COUNTER_S[];
+/*26:67*/
+/*26:73*/typedef struct DG_VISIBLE_COUNTER_S
+/*26:74*/{STRING_F Name;
+/*26:75*/DG_COUNTER_TYPE_V Type;
+/*26:76*/STRING_F Display;
+/*26:77*/}DG_VISIBLE_COUNTER_S;
+/*26:79*/extern DESCRIPTOR_S DDG_VISIBLE_COUNTER_S[];
+/*26:81*/
+/*26:101*/typedef struct DIAGNOSTIC_S
+/*26:102*/{ID_F MagicID;
+/*26:103*/STRING_F Name;
+/*26:104*/STRING_F OrgFields;
+/*26:105*/CURSOR_S*(*SetupCursor)(POINTER_F Dummy,COUNT_F Line,STRING_F File);
+/*26:106*/STRING_F DetailsColumn;
+/*26:107*/STRING_F OrgDetailsFields;
+/*26:108*/CURSOR_S*(*DetailsCursor)(POINTER_F Dummy,COUNT_F Line,STRING_F File);
+/*26:109*/}DIAGNOSTIC_S;
+/*26:113*/extern DESCRIPTOR_S DDIAGNOSTIC_S[];
+/*26:115*/
+/*26:125*/typedef struct DG_DIAGNOSABLE_DESCRIPTION_S
+/*26:126*/{ID_F MagicID;
+/*26:127*/STRING_F Name;
+/*26:128*/BOOLEAN_F(*Verify)(POINTER_F UserArg,
+/*26:129*/DESCRIPTOR_S*Description,
+/*26:130*/POINTER_F Entry);
+/*26:131*/POINTER_F UserArg;
+/*26:132*/CURSOR_S*(*Cursor)(POINTER_F Entry,COUNT_F Line,STRING_F File);
+/*26:133*/}DG_DIAGNOSABLE_DESCRIPTION_S;
+/*26:137*/extern DESCRIPTOR_S DDG_DIAGNOSABLE_DESCRIPTION_S[];
+/*26:139*/
+/*26:144*/typedef struct SCROLLING_LOG_ENTRY_S
+/*26:145*/{TIMESTAMP_F Time;
+/*26:146*/INDEX_F Index;
+/*26:147*/INDEX_F ThreadIndex;
+/*26:148*/STRING_F String;
+/*26:149*/char Buffer[1];
+/*26:150*/}SCROLLING_LOG_ENTRY_S;
+/*26:152*/extern DESCRIPTOR_S DSCROLLING_LOG_ENTRY_S[];
+/*26:154*/
+/*26:160*/typedef struct LOG_PURGE_PARAMS_S
+/*26:161*/{COUNT_F MinAge;
+/*26:162*/COUNT_F MaxAge;
+/*26:163*/COUNT_F MaxSize;
+/*26:164*/}LOG_PURGE_PARAMS_S;
+/*26:166*/
+/*26:172*/typedef struct SCROLLING_LOG_S
+/*26:173*/{ID_F MagicID;
+/*26:174*/STRING_F Name;
+/*26:175*/LOG_PURGE_PARAMS_S Specified;
+/*26:176*/LOG_PURGE_PARAMS_S Using;
+/*26:177*/COUNT_F MaxLength;
+/*26:178*/COUNT_F LastIndex;
+/*26:179*/MUTEX_SEMAPHORE_S*Lock;
+/*26:180*/BOOLEAN_F EnabledCallback;
+/*26:181*/BOOLEAN_F Enabled;
+/*26:182*/BOOLEAN_F Visible;
+/*26:183*/STRING_F LogDir;
+/*26:184*/BOOLEAN_F Logging;
+/*26:185*/HEAP_S*Heap;
+/*26:186*/POINTER_ARRAY_S*Array;
+/*26:187*/}SCROLLING_LOG_S;
+/*26:191*/extern DESCRIPTOR_S DSCROLLING_LOG_S[];
+/*26:194*/
+/*29:1*/
+/*29:167*/
+/*24:29*/
+/*24:37*/typedef enum DB_OPERATOR_V
+/*24:38*/{DB_AND='&',
+/*24:39*/DB_OR='|',
+/*24:40*/DB_COMMA=',',
+/*24:41*/DB_PLUS_EQUAL='+',
+/*24:42*/DB_MINUS_EQUAL='-',
+/*24:43*/DB_TIMES_EQUAL='*',
+/*24:44*/DB_DIVIDE_EQUAL='/',
+/*24:45*/DB_INSENSITIVE='~',
+/*24:46*/DB_EQUAL='=',
+/*24:47*/DB_EQ='=',
+/*24:48*/DB_NE='!',
+/*24:49*/DB_LE='L',
+/*24:50*/DB_GE='G',
+/*24:51*/DB_LT='<',
+/*24:52*/DB_GT='>'
+/*24:53*/}DB_OPERATOR_V;
+/*24:55*/
+/*24:59*/typedef enum DB_ACTION_V
+/*24:60*/{DB_INSERTALLOWED='*',
+/*24:61*/DB_INSERT='I',
+/*24:62*/DB_UPDATE='U'
+/*24:63*/}DB_ACTION_V;
+/*24:65*/
+/*24:75*/typedef struct SECONDARY_DEFINITION_S
+/*24:76*/{ID_F MagicID;
+/*24:77*/STRING_F Name;
+/*24:78*/STRING_F KeyFields;
+/*24:79*/BOOLEAN_F Unique;
+/*24:80*/}SECONDARY_DEFINITION_S;
+/*24:83*/
+/*24:86*/typedef struct KEY_PERFORMANCE_S
+/*24:87*/{COUNT_F Inserts;
+/*24:88*/COUNT_F Removes;
+/*24:89*/COUNT_F Queries;
+/*24:90*/MILLISECS_F InsertTime;
+/*24:91*/MILLISECS_F RemoveTime;
+/*24:92*/MILLISECS_F QueryTime;
+/*24:93*/MILLISECS_F InstantiateTime;
+/*24:94*/MILLISECS_F FreeTime;
+/*24:95*/MILLISECS_F HashInsertTime;
+/*24:96*/COUNT_F InsertOnlys;
+/*24:97*/COUNT_F InsertSeconds;
+/*24:98*/COUNT_F InsertMores;
+/*24:99*/COUNT_F InsertGrows;
+/*24:100*/MILLISECS_F HashRemoveTime;
+/*24:101*/COUNT_F RemoveOnlys;
+/*24:102*/COUNT_F RemoveMores;
+/*24:103*/COUNT_F RemoveLasts;
+/*24:104*/COUNT_F MaxMatches;
+/*24:105*/COUNT_F KeyHashCount;
+/*24:106*/COUNT_F KeyCompareCount;
+/*24:107*/MILLISECS_F KeyHashTime;
+/*24:108*/MILLISECS_F KeyCompareTime;
+/*24:109*/}KEY_PERFORMANCE_S;
+/*24:111*/extern DESCRIPTOR_S DKEY_PERFORMANCE_S[];
+/*24:113*/
+/*24:124*/typedef struct KEY_INFO_S
+/*24:125*/{ID_F MagicID;
+/*24:126*/STRING_F Name;
+/*24:127*/struct DB_TABLE_S*Table;
+/*24:128*/STRING_F TableName;
+/*24:129*/BOOLEAN_F Unique;
+/*24:130*/BOOLEAN_F Built;
+/*24:131*/COUNT_F FieldCount;
+/*24:132*/STRING_F*Fields;
+/*24:133*/STRING_F DefaultMapString;
+/*24:134*/COUNT_F Size;
+/*24:135*/DESCRIPTOR_S*Description;
+/*24:136*/struct
+/*24:137*/{POINTER_F*pKeyValues;
+/*24:138*/
+/*24:139*/DESCRIPTOR_S*dSto;
+/*24:140*/
+/*24:141*/DESCRIPTOR_S*dKey;
+/*24:142*/
+/*24:143*/}*KeyParts;
+/*24:144*/HASH_S*Hash;
+/*24:145*/BOOLEAN_F Timed;
+/*24:146*/MILLISECS_F BuildmSec;
+/*24:147*/KEY_PERFORMANCE_S Build;
+/*24:148*/KEY_PERFORMANCE_S Live;
+/*24:149*/}KEY_INFO_S;
+/*24:152*/extern DESCRIPTOR_S DKEY_INFO_S[];
+/*24:154*/
+/*24:159*/typedef struct KEY_LINKS_S
+/*24:160*/{ID_F MagicID;
+/*24:161*/POINTER_F First;
+/*24:162*/INDEX_F Index;
+/*24:163*/KEY_INFO_S*Key;
+/*24:164*/COUNT_F Count;
+/*24:165*/COUNT_F Size;
+/*24:166*/INDEX_F Indices[1];
+/*24:167*/}KEY_LINKS_S;
+/*24:170*/extern DESCRIPTOR_S DKEY_LINKS_S[];
+/*24:172*/
+/*24:179*/typedef struct DB_DESCRIPTION_MAPPING_S
+/*24:180*/{DESCRIPTOR_S*DbDesc;
+/*24:181*/POINTER_F*pKeyValues;
+/*24:182*/DB_OPERATOR_V Condition;
+/*24:183*/DESCRIPTOR_S*CallersDesc;
+/*24:184*/DB_OPERATOR_V Operator;
+/*24:185*/void*(*CopyRtn)(void*Bd,DESCRIPTOR_S*Dd,DB_OPERATOR_V Operator,
+/*24:186*/const void*Bs,DESCRIPTOR_S*Ds);
+/*24:187*/int(*CmpRtn)(const void*Bl,DESCRIPTOR_S*Dl,
+/*24:188*/const void*Br,DESCRIPTOR_S*Dr);
+/*24:189*/}DB_DESCRIPTION_MAPPING_S;
+/*24:191*/extern DESCRIPTOR_S DDB_DESCRIPTION_MAPPING_S[];
+/*24:193*/
+/*24:201*/typedef struct DB_MAPPING_S
+/*24:202*/{ID_F MagicID;
+/*24:203*/STRING_F Key;
+/*24:204*/DESCRIPTOR_S*DbDescription;
+/*24:205*/DESCRIPTOR_S*CallersDescription;
+/*24:206*/COUNT_F Hits;
+/*24:207*/COUNT_F References;
+/*24:208*/COUNT_F Count;
+/*24:209*/COUNT_F Allocated;
+/*24:210*/DB_DESCRIPTION_MAPPING_S*Mappings;
+/*24:211*/COUNT_F KeyCount;
+/*24:212*/struct
+/*24:213*/{KEY_INFO_S*Key;
+/*24:214*/BOOLEAN_F Covered;
+/*24:215*/}*Keys;
+/*24:216*/}DB_MAPPING_S;
+/*24:220*/extern DESCRIPTOR_S DDB_MAPPING_S[];
+/*24:224*/
+/*24:231*/typedef struct DB_RECORD_PREFIX_S
+/*24:232*/{ID_F MagicID;
+/*24:233*/INDEX_F DbDataFileOffset;
+/*24:234*/struct DB_RECORD_PREFIX_S*DbNextFreeRecord;
+/*24:235*/struct
+/*24:236*/{char Data[1];
+/*24:237*/}DbCallersDataRecord;
+/*24:238*/}DB_RECORD_PREFIX_S;
+/*24:243*/extern DESCRIPTOR_S DDB_RECORD_PREFIX_S[];
+/*24:250*/
+/*24:257*/typedef struct FILE_UPDATE_HEADER_S
+/*24:258*/{ID_F MagicID;
+/*24:259*/COUNT_F RecordCount;
+/*24:260*/TIMESTAMP_F LastUpdate;
+/*24:261*/COUNT_F Collisions;
+/*24:262*/}FILE_UPDATE_HEADER_S;
+/*24:266*/
+/*24:269*/typedef struct DB_MAPPING_CACHE_S
+/*24:270*/{COUNT_F Hits,Misses,Swaps;
+/*24:271*/DB_MAPPING_S*Mapping;
+/*24:272*/DB_MAPPING_S*LastMiss;
+/*24:273*/}DB_MAPPING_CACHE_S;
+/*24:275*/
+/*24:278*/typedef struct DB_ACCESS_PLAN_S
+/*24:279*/{ID_F MagicID;
+/*24:280*/STRING_F TableName;
+/*24:281*/struct DB_TABLE_S*Table;
+/*24:282*/TIMESTAMP_F Created;
+/*24:283*/TIMESTAMP_F LastUse;
+/*24:284*/DB_MAPPING_CACHE_S Key,Cond,Values;
+/*24:285*/}DB_ACCESS_PLAN_S;
+/*24:289*/extern DESCRIPTOR_S DDB_ACCESS_PLAN_S[];
+/*24:291*/
+/*24:307*/typedef struct DB_TABLE_S
+/*24:308*/{ID_F MagicID;
+/*24:309*/STRING_F Name;
+/*24:310*/DESCRIPTOR_S*Description;
+/*24:311*/COUNT_F MaximumSize;
+/*24:312*/COUNT_F GrowthSize;
+/*24:313*/COUNT_F CurrentSize;
+/*24:314*/COUNT_F InUse;
+/*24:316*/BOOLEAN_F Open;
+/*24:318*/BOOLEAN_F Cached;
+/*24:319*/struct
+/*24:320*/{COUNT_F MinAge;
+/*24:321*/COUNT_F MaxAge;
+/*24:322*/COUNT_F MaxSpace;
+/*24:323*/COUNT_F Interval;
+/*24:324*/}Cache;
+/*24:325*/COUNT_F CacheFlushes;
+/*24:326*/COUNT_F Resident;
+/*24:327*/COUNT_F MaxResident;
+/*24:328*/TIMESTAMP_F MaxResidentWhen;
+/*24:329*/TIMESTAMP_F LastFlush;
+/*24:330*/struct
+/*24:331*/{COUNT_F Recalled;
+/*24:332*/COUNT_F Recovered;
+/*24:333*/COUNT_F Forgotten;
+/*24:334*/COUNT_F Flushed;
+/*24:335*/}CachedRecordCounters;
+/*24:337*/READ_WRITE_LOCK_S*RWLock;
+/*24:338*/HEAP_S*Heap;
+/*24:339*/HEAP_S*StaticHeap;
+/*24:340*/HEAP_S*KeyLinksHeap;
+/*24:342*/COUNT64_F DefaultPlanUses;
+/*24:343*/DB_ACCESS_PLAN_S*DefaultPlan;
+/*24:345*/HASH_S*MapHash;
+/*24:347*/DESCRIPTOR_S*RecordDesc;
+/*24:348*/POINTER_F Stream;
+/*24:350*/COUNT_F ExtentCount;
+/*24:351*/POINTER_F*Extents;
+/*24:353*/DB_RECORD_PREFIX_S*PendingFree;
+/*24:354*/DB_RECORD_PREFIX_S*FreeList;
+/*24:355*/INDEX_F LowestFree;
+/*24:357*/POINTER_F*RecordList;
+/*24:358*/TIMESTAMP_F*References;
+/*24:359*/TIMESTAMP_F OldestReference;
+/*24:360*/BOOLEAN_F FlushQueued;
+/*24:361*/COUNT_F ReferenceIntervalCount;
+/*24:362*/COUNT_F ReferenceIntervals[8];
+/*24:363*/struct
+/*24:364*/{TIMESTAMP_F Since;
+/*24:365*/COUNT_F Age;
+/*24:366*/COUNT_F InUse;
+/*24:367*/COUNT_F Flushed;
+/*24:368*/COUNT_F Free;
+/*24:369*/}ReferenceBuckets[10];
+/*24:371*/struct
+/*24:372*/{COUNT_F Hits;
+/*24:373*/struct
+/*24:374*/{COUNT_F Records;
+/*24:375*/COUNT_F RecSize;
+/*24:376*/COUNT_F Bytes;
+/*24:377*/TIMESTAMP_F When;
+/*24:378*/STRING_F Thread;
+/*24:379*/}Max;
+/*24:380*/}QueryChunks[8];
+/*24:382*/COUNT_F KeyValueCount;
+/*24:383*/POINTER_F*KeyValues;
+/*24:384*/
+/*24:386*/BOOLEAN_F Optimized;
+/*24:387*/COUNT_F ShadowSize;
+/*24:388*/COUNT_F RecordSize;
+/*24:389*/COUNT_F OnDiskSize;
+/*24:390*/COUNT_F KeyLinkCount;
+/*24:391*/COUNT_F KeyLinkFreeCount;
+/*24:392*/INDEX_F FreeKeyLink;
+/*24:393*/KEY_LINKS_S**KeyLinks;
+/*24:395*/KEY_INFO_S*PrimaryKey;
+/*24:396*/COUNT_F SecondaryCount;
+/*24:397*/KEY_INFO_S**SecondaryKey;
+/*24:398*/}DB_TABLE_S;
+/*24:401*/extern DESCRIPTOR_S DDB_TABLE_S[];
+/*24:403*/
+/*24:406*/typedef struct DB_QUERY_RESULT_S
+/*24:407*/{ID_F MagicID;
+/*24:408*/DB_TABLE_S*Table;
+/*24:409*/DESCRIPTOR_S*Description;
+/*24:410*/COUNT_F DestSize;
+/*24:411*/COUNT_F Available;
+/*24:412*/COUNT_F Allocated;
+/*24:413*/STRING_F NextRecord;
+/*24:414*/POINTER_ARRAY_S*Chunks;
+/*24:415*/POINTER_ARRAY_S*Records;
+/*24:416*/}DB_QUERY_RESULT_S;
+/*24:420*/extern DESCRIPTOR_S DDB_QUERY_RESULT_S[];
+/*24:424*/
+/*30:1*/
+/*30:34*/
+/*21:21*/typedef struct APRSISCE_USER0_S
+/*21:22*/{STATION_ID_F StationID;
+/*21:23*/TIMESTAMP_F Registered;
+/*21:24*/TIMESTAMP_F FirstHeard;
+/*21:25*/COORDINATE_S First;
+/*21:26*/TIMESTAMP_F LastHeard;
+/*21:27*/COORDINATE_S Last;
+/*21:28*/COUNT_F PacketsReceived;
+/*21:29*/}APRSISCE_USER0_S;
+/*21:30*/extern DESCRIPTOR_S DAPRSISCE_USER0_S[];
+/*21:32*/typedef struct APRSISCE_USER_S
+/*21:33*/{STATION_ID_F StationID;
+/*21:34*/TIMESTAMP_F Registered;
+/*21:35*/TIMESTAMP_F FirstHeard;
+/*21:36*/COORDINATE_S First;
+/*21:37*/TIMESTAMP_F LastHeard;
+/*21:38*/COORDINATE_S Last;
+/*21:39*/VERSION_F Version;
+/*21:40*/COUNT_F PacketsReceived;
+/*21:41*/}APRSISCE_USER_S;
+/*21:42*/extern DESCRIPTOR_S DAPRSISCE_USER_S[];
+/*21:43*/extern DB_TABLE_S*UserTable ;
+/*21:45*/typedef struct USER_PACKET_S
+/*21:46*/{STATION_ID_F StationID;
+/*21:47*/TIMESTAMP_F When;
+/*21:48*/COORDINATE_S Where;
+/*21:49*/IP_ADDRESS_F IPAddress;
+/*21:50*/DNS_NAME_F ReverseDNS;
+/*21:51*/}USER_PACKET_S;
+/*21:52*/extern DESCRIPTOR_S DUSER_PACKET_S[];
+/*21:53*/extern DB_TABLE_S*UserPktTable ;
+/*21:55*/typedef struct STATION_IDS_S
+/*21:56*/{STATION_ID_F OwnerID;
+/*21:57*/STATION_ID_F StationID;
+/*21:58*/INTEGER_ID_F StationIndex;
+/*21:59*/}STATION_IDS_S;
+/*21:60*/extern DESCRIPTOR_S DSTATION_IDS_S[];
+/*21:61*/extern DB_TABLE_S*StatIDTable ;
+/*21:63*/typedef struct POSITION_S
+/*21:64*/{INTEGER_ID_F PositionIndex;
+/*21:65*/COORDINATE_S Where;
+/*21:66*/TIMESTAMP_F Touched;
+/*21:67*/}POSITION_S;
+/*21:68*/extern DESCRIPTOR_S DPOSITION_S[];
+/*21:69*/extern DB_TABLE_S*PosTable ;
+/*21:71*/typedef struct HOP_S
+/*21:72*/{INTEGER_ID_F PacketIndex;
+/*21:73*/INDEX_F Sequence;
+/*21:74*/INTEGER_ID_F StationIndex;
+/*21:75*/INTEGER_ID_F PositionIndex;
+/*21:76*/BOOLEAN_F Used;
+/*21:77*/}HOP_S;
+/*21:78*/extern DESCRIPTOR_S DHOP_S[];
+/*21:79*/extern DB_TABLE_S*HopTable ;
+/*21:81*/typedef struct STATION1_S
+/*21:82*/{STATION_ID_F OwnerID;
+/*21:83*/STATION_ID_F StationID;
+/*21:84*/INTEGER_ID_F StationIndex;
+/*21:85*/COORDINATE_S Last;
+/*21:86*/ALTITUDE_F Altitude;
+/*21:87*/APRS_SYMBOL_F Symbol;
+/*21:88*/TIMESTAMP_F FirstHeard;
+/*21:89*/TIMESTAMP_F LastHeard;
+/*21:90*/TIMESTAMP_F LastPosition;
+/*21:91*/TIMESTAMP_F LastMotion;
+/*21:92*/BEARING_F LastBearing;
+/*21:93*/SPEED_F LastSpeed;
+/*21:94*/DISTANCE_F Odometer;
+/*21:95*/COUNT_F PacketsReceived;
+/*21:96*/COUNT_F PacketsHeard;
+/*21:97*/INTEGER_ID_F PositionIndex;
+/*21:98*/}STATION1_S;
+/*21:99*/extern DESCRIPTOR_S DSTATION1_S[];
+/*21:101*/typedef struct STATION_S
+/*21:102*/{STATION_ID_F OwnerID;
+/*21:103*/STATION_ID_F StationID;
+/*21:104*/INTEGER_ID_F StationIndex;
+/*21:105*/COORDINATE_S Last;
+/*21:106*/ALTITUDE_F Altitude;
+/*21:107*/APRS_SYMBOL_F Symbol;
+/*21:108*/TIMESTAMP_F FirstHeard;
+/*21:109*/TIMESTAMP_F LastHeard;
+/*21:110*/TIMESTAMP_F LastPosition;
+/*21:111*/TIMESTAMP_F LastMotion;
+/*21:112*/BEARING_F LastBearing;
+/*21:113*/SPEED_F LastSpeed;
+/*21:114*/DISTANCE_F Odometer;
+/*21:115*/COUNT_F PacketsReceived;
+/*21:116*/COUNT_F PacketsHeard;
+/*21:117*/COUNT_F PacketsIGated;
+/*21:118*/TIMESTAMP_F LastIGate;
+/*21:119*/COUNT_F RFPacketsIGated;
+/*21:120*/TIMESTAMP_F LastRFIGate;
+/*21:121*/INTEGER_ID_F PositionIndex;
+/*21:122*/}STATION_S;
+/*21:123*/extern DESCRIPTOR_S DSTATION_S[];
+/*21:124*/extern DB_TABLE_S*StationTable ;
+/*21:126*/typedef struct PACKET_S
+/*21:127*/{INTEGER_ID_F PacketIndex;
+/*21:128*/INTEGER_ID_F OriginIndex;
+/*21:129*/INTEGER_ID_F DestIndex;
+/*21:130*/INTEGER_ID_F HeardIndex;
+/*21:131*/BOOLEAN_F HeardOnRF;
+/*21:132*/APRS_DATA_TYPE_F DataType;
+/*21:133*/TIMESTAMP_F When;
+/*21:134*/INTEGER_ID_F PositionIndex;
+/*21:135*/ALTITUDE_F Altitude;
+/*21:136*/DISTANCE_F Distance;
+/*21:137*/COUNT_F Seconds;
+/*21:138*/SPEED_F Speed;
+/*21:139*/BEARING_F Bearing;
+/*21:140*/COUNT_F LogOffset;
+/*21:141*/}PACKET_S;
+/*21:142*/extern DESCRIPTOR_S DPACKET_S[];
+/*21:143*/extern DB_TABLE_S*PacketTable ;
+/*21:147*/
+/*31:1*/
+/*32:1*/
+/*32:34*/
+/*31:17*/typedef struct APRS_LOG_PACKET_SRQ
+/*31:18*/{TIMESTAMP_F When;
+/*31:19*/STRING_F Packet;
+/*31:20*/}APRS_LOG_PACKET_SRQ;
+/*31:22*/typedef EMPTY_S APRS_LOG_PACKET_SRP;
+/*31:24*/extern DESCRIPTOR_S DAPRS_LOG_PACKET_SRQ[];
+/*31:25*/extern DESCRIPTOR_S DAPRS_LOG_PACKET_SRP[];
+/*31:27*/typedef struct APRS_LOG_RECEIVED_PACKET_SRQ
+/*31:28*/{TIMESTAMP_F When;
+/*31:29*/STRING_F ReceivedBy;
+/*31:30*/STRING_F Packet;
+/*31:31*/}APRS_LOG_RECEIVED_PACKET_SRQ;
+/*31:33*/typedef EMPTY_S APRS_LOG_RECEIVED_PACKET_SRP;
+/*31:35*/extern DESCRIPTOR_S DAPRS_LOG_RECEIVED_PACKET_SRQ[];
+/*31:36*/extern DESCRIPTOR_S DAPRS_LOG_RECEIVED_PACKET_SRP[];
+/*31:38*/typedef APRS_LOG_RECEIVED_PACKET_SRQ APRS_LOG_DIGIPEATED_PACKET_SRQ;
+/*31:40*/typedef APRS_LOG_RECEIVED_PACKET_SRP APRS_LOG_DIGIPEATED_PACKET_SRP;
+/*31:42*/extern DESCRIPTOR_S DAPRS_LOG_DIGIPEATED_PACKET_SRQ[];
+/*31:43*/extern DESCRIPTOR_S DAPRS_LOG_DIGIPEATED_PACKET_SRP[];
+/*31:45*/typedef struct APRS_REPARSE_LOG_FILE_SRQ
+/*31:46*/{PATHNAME_F Path;
+/*31:47*/COORDINATE_S From,To;
+/*31:48*/}APRS_REPARSE_LOG_FILE_SRQ;
+/*31:50*/typedef struct APRS_REPARSE_LOG_FILE_SRP
+/*31:51*/{COUNT_F Processed;
+/*31:52*/COUNT_F NullIsland;
+/*31:53*/COUNT_F OutOfBounds;
+/*31:54*/COUNT_F ParseFail;
+/*31:55*/}APRS_REPARSE_LOG_FILE_SRP;
+/*31:57*/extern DESCRIPTOR_S DAPRS_REPARSE_LOG_FILE_SRQ[];
+/*31:58*/extern DESCRIPTOR_S DAPRS_REPARSE_LOG_FILE_SRP[];
+/*31:60*/typedef struct APRS_PURGE_PACKETS_SRQ
+/*31:61*/{STATION_ID_F OriginID;
+/*31:62*/STATION_ID_F DestID;
+/*31:63*/STATION_ID_F RelayID;
+/*31:64*/STATION_ID_F IGateID;
+/*31:65*/APRS_DATA_TYPE_F DataType;
+/*31:66*/SPEED_F FasterThan;
+/*31:67*/SPEED_F SlowerThan;
+/*31:68*/TIMESTAMP_F StartTime;
+/*31:69*/TIMESTAMP_F EndTime;
+/*31:71*/BOOLEAN_F ReallyAll;
+/*31:72*/}APRS_PURGE_PACKETS_SRQ;
+/*31:74*/typedef struct APRS_PURGE_PACKETS_SRP
+/*31:75*/{COUNT_F Count;
+/*31:76*/}APRS_PURGE_PACKETS_SRP;
+/*31:78*/extern DESCRIPTOR_S DAPRS_PURGE_PACKETS_SRQ[];
+/*31:79*/extern DESCRIPTOR_S DAPRS_PURGE_PACKETS_SRP[];
+/*31:81*/typedef struct APRS_QUERY_PACKETS_SRQ
+/*31:82*/{INTEGER_ID_F PacketIndex;
+/*31:83*/STATION_ID_F OriginID;
+/*31:84*/STATION_ID_F DestID;
+/*31:85*/STATION_ID_F RelayID;
+/*31:86*/STATION_ID_F IGateID;
+/*31:88*/INTEGER_ID_F OriginIndex;
+/*31:89*/INTEGER_ID_F DestIndex;
+/*31:90*/INTEGER_ID_F RelayIndex;
+/*31:91*/INTEGER_ID_F HeardIndex;
+/*31:92*/BOOLEAN_F HeardOnRF;
+/*31:94*/APRS_DATA_TYPE_F DataType;
+/*31:95*/SPEED_F FasterThan;
+/*31:96*/SPEED_F SlowerThan;
+/*31:97*/TIMESTAMP_F StartTime;
+/*31:98*/TIMESTAMP_F EndTime;
+/*31:99*/BOOLEAN_F ReallyAll;
+/*31:100*/BOOLEAN_F IncludeHopCount;
+/*31:101*/}APRS_QUERY_PACKETS_SRQ;
+/*31:103*/typedef struct APRS_QUERY_PACKETS_SRP
+/*31:104*/{COORDINATE_S Min,Max;
+/*31:105*/COUNT_F Count;
+/*31:106*/struct
+/*31:107*/{
+/*31:108*/TIMESTAMP_F When;
+/*31:109*/STATION_ID_F OriginID;
+/*31:110*/APRS_DATA_TYPE_F DataType;
+/*31:111*/STATION_ID_F DestID;
+/*31:112*/COORDINATE_S Where;
+/*31:113*/ALTITUDE_F Altitude;
+/*31:114*/DISTANCE_F Distance;
+/*31:115*/COUNT_F Seconds;
+/*31:116*/SPEED_F Speed;
+/*31:117*/BEARING_F Bearing;
+/*31:118*/STATION_ID_F IGateID;
+/*31:119*/COORDINATE_S IGateLoc;
+/*31:120*/COUNT_F HopCount;
+/*31:121*/COUNT_F LogOffset;
+/*31:122*/INTEGER_ID_F PacketIndex;
+/*31:123*/INTEGER_ID_F OriginIndex;
+/*31:124*/INTEGER_ID_F DestIndex;
+/*31:125*/INTEGER_ID_F HeardIndex;
+/*31:126*/BOOLEAN_F HeardOnRF;
+/*31:127*/INTEGER_ID_F PositionIndex;
+/*31:128*/}Packets[1];
+/*31:129*/}APRS_QUERY_PACKETS_SRP;
+/*31:131*/extern DESCRIPTOR_S DAPRS_QUERY_PACKETS_SRQ[];
+/*31:132*/extern DESCRIPTOR_S DAPRS_QUERY_PACKETS_SRP[];
+/*31:134*/typedef struct APRS_DELETE_PACKETS_SRQ
+/*31:135*/{INTEGER_ID_F PacketIndex;
+/*31:136*/STATION_ID_F OriginID;
+/*31:137*/STATION_ID_F DestID;
+/*31:138*/STATION_ID_F RelayID;
+/*31:139*/STATION_ID_F IGateID;
+/*31:141*/INTEGER_ID_F OriginIndex;
+/*31:142*/INTEGER_ID_F DestIndex;
+/*31:143*/INTEGER_ID_F HeardIndex;
+/*31:144*/BOOLEAN_F HeardOnRF;
+/*31:146*/APRS_DATA_TYPE_F DataType;
+/*31:147*/TIMESTAMP_F StartTime;
+/*31:148*/TIMESTAMP_F EndTime;
+/*31:149*/}APRS_DELETE_PACKETS_SRQ;
+/*31:151*/typedef struct APRS_DELETE_PACKETS_SRP
+/*31:152*/{COUNT_F Count;
+/*31:153*/}APRS_DELETE_PACKETS_SRP;
+/*31:155*/extern DESCRIPTOR_S DAPRS_DELETE_PACKETS_SRQ[];
+/*31:156*/extern DESCRIPTOR_S DAPRS_DELETE_PACKETS_SRP[];
+/*31:158*/typedef struct APRS_QUERY_HOPS_SRQ
+/*31:159*/{INTEGER_ID_F PacketIndex;
+/*31:160*/INDEX_F Sequence;
+/*31:161*/INTEGER_ID_F StationIndex;
+/*31:162*/BOOLEAN_F ReallyAll;
+/*31:163*/}APRS_QUERY_HOPS_SRQ;
+/*31:165*/typedef struct APRS_QUERY_HOPS_SRP
+/*31:166*/{COORDINATE_S Min,Max;
+/*31:167*/COUNT_F Count;
+/*31:168*/struct
+/*31:169*/{INTEGER_ID_F PacketIndex;
+/*31:170*/INDEX_F Sequence;
+/*31:171*/INTEGER_ID_F StationIndex;
+/*31:172*/INTEGER_ID_F PositionIndex;
+/*31:173*/BOOLEAN_F Used;
+/*31:174*/STATION_ID_F StationID;
+/*31:175*/COORDINATE_S Where;
+/*31:176*/DISTANCE_F Distance;
+/*31:177*/BEARING_F Bearing;
+/*31:178*/}Hops[1];
+/*31:179*/}APRS_QUERY_HOPS_SRP;
+/*31:181*/extern DESCRIPTOR_S DAPRS_QUERY_HOPS_SRQ[];
+/*31:182*/extern DESCRIPTOR_S DAPRS_QUERY_HOPS_SRP[];
+/*31:184*/typedef struct APRS_LOOKUP_STATION_SRQ
+/*31:185*/{INTEGER_ID_F StationIndex;
+/*31:186*/STATION_ID_F OwnerID;
+/*31:187*/STATION_ID_F StationID;
+/*31:188*/}APRS_LOOKUP_STATION_SRQ;
+/*31:190*/typedef struct APRS_LOOKUP_STATION_SRP
+/*31:191*/{INTEGER_ID_F StationIndex;
+/*31:192*/STATION_ID_F OwnerID;
+/*31:193*/STATION_ID_F StationID;
+/*31:194*/APRS_SYMBOL_F Symbol;
+/*31:195*/STRING_F SymbolName;
+/*31:196*/TIMESTAMP_F FirstHeard;
+/*31:197*/TIMESTAMP_F LastHeard;
+/*31:198*/TIMESTAMP_F LastPosition;
+/*31:199*/COORDINATE_S Last;
+/*31:200*/ALTITUDE_F Altitude;
+/*31:201*/TIMESTAMP_F LastMotion;
+/*31:202*/BEARING_F LastBearing;
+/*31:203*/SPEED_F LastSpeed;
+/*31:204*/DISTANCE_F Odometer;
+/*31:205*/COUNT_F PacketsReceived;
+/*31:206*/COUNT_F PacketsHeard;
+/*31:207*/COUNT_F PacketsIGated;
+/*31:208*/TIMESTAMP_F LastIGate;
+/*31:209*/COUNT_F RFPacketsIGated;
+/*31:210*/TIMESTAMP_F LastRFIGate;
+/*31:211*/INTEGER_ID_F PositionIndex;
+/*31:212*/}APRS_LOOKUP_STATION_SRP;
+/*31:214*/extern DESCRIPTOR_S DAPRS_LOOKUP_STATION_SRQ[];
+/*31:215*/extern DESCRIPTOR_S DAPRS_LOOKUP_STATION_SRP[];
+/*31:217*/typedef struct APRS_QUERY_STATIONS_SRQ
+/*31:218*/{TIMESTAMP_F NewerThan;
+/*31:219*/TIMESTAMP_F HeardSince;
+/*31:220*/TIMESTAMP_F InactiveSince;
+/*31:221*/TIMESTAMP_F MovedSince;
+/*31:222*/SPEED_F FasterThan;
+/*31:223*/DISTANCE_F FurtherThan;
+/*31:224*/TIMESTAMP_F IGateSince;
+/*31:225*/TIMESTAMP_F RFIGateSince;
+/*31:226*/BOOLEAN_F ReallyAll;
+/*31:227*/}APRS_QUERY_STATIONS_SRQ;
+/*31:229*/typedef struct APRS_QUERY_STATIONS_SRP
+/*31:230*/{COUNT_F Count;
+/*31:231*/struct
+/*31:232*/{STATION_ID_F OwnerID;
+/*31:233*/STATION_ID_F StationID;
+/*31:234*/INTEGER_ID_F StationIndex;
+/*31:235*/APRS_SYMBOL_F Symbol;
+/*31:236*/TIMESTAMP_F FirstHeard;
+/*31:237*/COORDINATE_S First;
+/*31:238*/TIMESTAMP_F LastHeard;
+/*31:239*/COORDINATE_S Last;
+/*31:240*/TIMESTAMP_F LastMotion;
+/*31:241*/BEARING_F LastBearing;
+/*31:242*/SPEED_F LastSpeed;
+/*31:243*/DISTANCE_F Odometer;
+/*31:244*/COUNT_F PacketsReceived;
+/*31:245*/COUNT_F PacketsIGated;
+/*31:246*/TIMESTAMP_F LastIGate;
+/*31:247*/COUNT_F RFPacketsIGated;
+/*31:248*/TIMESTAMP_F LastRFIGate;
+/*31:249*/INTEGER_ID_F PositionIndex;
+/*31:250*/}Stations[1];
+/*31:251*/}APRS_QUERY_STATIONS_SRP;
+/*31:253*/extern DESCRIPTOR_S DAPRS_QUERY_STATIONS_SRQ[];
+/*31:254*/extern DESCRIPTOR_S DAPRS_QUERY_STATIONS_SRP[];
+/*31:256*/typedef struct APRS_QUERY_STATION_INDICES_SRQ
+/*31:257*/{STATION_ID_F OwnerID;
+/*31:258*/STATION_ID_F StationID;
+/*31:259*/BOOLEAN_F ReallyAll;
+/*31:260*/}APRS_QUERY_STATION_INDICES_SRQ;
+/*31:262*/typedef struct APRS_QUERY_STATION_INDICES_SRP
+/*31:263*/{COUNT_F Count;
+/*31:264*/APRS_LOOKUP_STATION_SRP Stations[1];
+/*31:265*/}APRS_QUERY_STATION_INDICES_SRP;
+/*31:267*/extern DESCRIPTOR_S DAPRS_QUERY_STATION_INDICES_SRQ[];
+/*31:268*/extern DESCRIPTOR_S DAPRS_QUERY_STATION_INDICES_SRP[];
+/*31:270*/typedef struct APRS_QUERY_UNIQUE_IGATES_SRQ
+/*31:271*/{TIMESTAMP_F StartTime;
+/*31:272*/TIMESTAMP_F EndTime;
+/*31:273*/BOOLEAN_F OnlyKnown;
+/*31:274*/DISTANCE_F MaxMotion;
+/*31:275*/BOOLEAN_F ReallyAll;
+/*31:276*/}APRS_QUERY_UNIQUE_IGATES_SRQ;
+/*31:278*/typedef struct APRS_QUERY_UNIQUE_IGATES_SRA
+/*31:279*/{STATION_ID_F OwnerID;
+/*31:280*/STATION_ID_F StationID;
+/*31:281*/APRS_SYMBOL_F Symbol;
+/*31:282*/COUNT_F PacketsGated;
+/*31:283*/TIMESTAMP_F FirstHeard;
+/*31:284*/COORDINATE_S First;
+/*31:285*/TIMESTAMP_F LastHeard;
+/*31:286*/COORDINATE_S Last;
+/*31:287*/TIMESTAMP_F LastMotion;
+/*31:288*/BEARING_F LastBearing;
+/*31:289*/SPEED_F LastSpeed;
+/*31:290*/DISTANCE_F Odometer;
+/*31:291*/COUNT_F PacketsReceived;
+/*31:292*/COUNT_F PacketsIGated;
+/*31:293*/TIMESTAMP_F LastIGate;
+/*31:294*/COUNT_F RFPacketsIGated;
+/*31:295*/TIMESTAMP_F LastRFIGate;
+/*31:296*/INTEGER_ID_F PositionIndex;
+/*31:297*/INTEGER_ID_F StationIndex;
+/*31:298*/DISTANCE_F MaxDistance;
+/*31:299*/}APRS_QUERY_UNIQUE_IGATES_SRA;
+/*31:301*/typedef struct APRS_QUERY_UNIQUE_IGATES_SRP
+/*31:302*/{COUNT_F Count;
+/*31:303*/APRS_QUERY_UNIQUE_IGATES_SRA Stations[1];
+/*31:304*/}APRS_QUERY_UNIQUE_IGATES_SRP;
+/*31:306*/extern DESCRIPTOR_S DAPRS_QUERY_UNIQUE_IGATES_SRQ[];
+/*31:307*/extern DESCRIPTOR_S DAPRS_QUERY_UNIQUE_IGATES_SRA[];
+/*31:308*/extern DESCRIPTOR_S DAPRS_QUERY_UNIQUE_IGATES_SRP[];
+/*31:310*/typedef struct APRS_QUERY_UNIQUE_PATHS_SRQ
+/*31:311*/{STATION_ID_F OriginID;
+/*31:312*/STATION_ID_F RelayID;
+/*31:313*/STATION_ID_F IGateID;
+/*31:315*/INTEGER_ID_F OriginIndex;
+/*31:316*/INTEGER_ID_F RelayIndex;
+/*31:317*/INTEGER_ID_F HeardIndex;
+/*31:318*/BOOLEAN_F HeardOnRF;
+/*31:320*/TIMESTAMP_F StartTime;
+/*31:321*/TIMESTAMP_F EndTime;
+/*31:322*/BOOLEAN_F ReallyAll;
+/*31:323*/BOOLEAN_F DirectOnly;
+/*31:324*/BOOLEAN_F IncludeInvalidStations;
+/*31:325*/DISTANCE_F MaxHopDistance;
+/*31:326*/}APRS_QUERY_UNIQUE_PATHS_SRQ;
+/*31:328*/typedef struct APRS_QUERY_UNIQUE_PATHS_SRA
+/*31:329*/{STATION_ID_F FromStationID;
+/*31:330*/STATION_ID_F ToStationID;
+/*31:331*/BOOLEAN_F Relay;
+/*31:332*/BOOLEAN_F IGate;
+/*31:333*/COUNT_F UseCount;
+/*31:334*/TIMESTAMP_F LastHeard;
+/*31:335*/TIMESTAMP_F FirstHeard;
+/*31:336*/DISTANCE_F Distance;
+/*31:337*/BEARING_F Bearing;
+/*31:338*/COORDINATE_S From;
+/*31:339*/COORDINATE_S To;
+/*31:340*/INTEGER_ID_F FromIndex;
+/*31:341*/INTEGER_ID_F FromPosIndex;
+/*31:342*/INTEGER_ID_F ToIndex;
+/*31:343*/INTEGER_ID_F ToPosIndex;
+/*31:344*/}APRS_QUERY_UNIQUE_PATHS_SRA;
+/*31:346*/typedef struct APRS_QUERY_UNIQUE_PATHS_SRP
+/*31:347*/{COORDINATE_S Min,Max;
+/*31:348*/struct
+/*31:349*/{COORDINATE_S Min,Max;
+/*31:350*/}Actual;
+/*31:351*/COUNT_F Count;
+/*31:352*/APRS_QUERY_UNIQUE_PATHS_SRA Paths[1];
+/*31:353*/}APRS_QUERY_UNIQUE_PATHS_SRP;
+/*31:355*/extern DESCRIPTOR_S DAPRS_QUERY_UNIQUE_PATHS_SRQ[];
+/*31:356*/extern DESCRIPTOR_S DAPRS_QUERY_UNIQUE_PATHS_SRA[];
+/*31:357*/extern DESCRIPTOR_S DAPRS_QUERY_UNIQUE_PATHS_SRP[];
+/*31:359*/typedef struct APRS_QUERY_UNIQUE_ALT_PATHS_SRQ
+/*31:360*/{STATION_ID_F OriginID;
+/*31:361*/STATION_ID_F RelayID;
+/*31:362*/STATION_ID_F IGateID;
+/*31:364*/INTEGER_ID_F OriginIndex;
+/*31:365*/INTEGER_ID_F RelayIndex;
+/*31:366*/INTEGER_ID_F HeardIndex;
+/*31:367*/BOOLEAN_F HeardOnRF;
+/*31:369*/TIMESTAMP_F StartTime;
+/*31:370*/TIMESTAMP_F EndTime;
+/*31:371*/BOOLEAN_F ReallyAll;
+/*31:372*/BOOLEAN_F DirectOnly;
+/*31:373*/BOOLEAN_F IncludeInvalidStations;
+/*31:374*/DISTANCE_F MaxHopDistance;
+/*31:376*/ALTITUDE_F MinAltitude,MaxAltitude;
+/*31:378*/}APRS_QUERY_UNIQUE_ALT_PATHS_SRQ;
+/*31:380*/typedef APRS_QUERY_UNIQUE_PATHS_SRA APRS_QUERY_UNIQUE_ALT_PATHS_SRA;
+/*31:381*/typedef APRS_QUERY_UNIQUE_PATHS_SRP APRS_QUERY_UNIQUE_ALT_PATHS_SRP;
+/*31:383*/extern DESCRIPTOR_S DAPRS_QUERY_UNIQUE_ALT_PATHS_SRQ[];
+/*31:384*/extern DESCRIPTOR_S DAPRS_QUERY_UNIQUE_ALT_PATHS_SRA[];
+/*31:385*/extern DESCRIPTOR_S DAPRS_QUERY_UNIQUE_ALT_PATHS_SRP[];
+/*31:387*/typedef struct APRS_QUERY_UNIQUE_DESTINATIONS_SRQ
+/*31:388*/{TIMESTAMP_F StartTime;
+/*31:389*/TIMESTAMP_F EndTime;
+/*31:390*/STATION_ID_F StartsWith;
+/*31:391*/BOOLEAN_F ReallyAll;
+/*31:392*/}APRS_QUERY_UNIQUE_DESTINATIONS_SRQ;
+/*31:394*/typedef struct APRS_QUERY_UNIQUE_DESTINATIONS_SRA
+/*31:395*/{STATION_ID_F DestID;
+/*31:396*/APRS_DATA_TYPE_F DataType;
+/*31:397*/COUNT_F PacketsReceived;
+/*31:398*/}APRS_QUERY_UNIQUE_DESTINATIONS_SRA;
+/*31:400*/typedef struct APRS_QUERY_UNIQUE_DESTINATIONS_SRP
+/*31:401*/{COUNT_F Count;
+/*31:402*/APRS_QUERY_UNIQUE_DESTINATIONS_SRA Stations[1];
+/*31:403*/}APRS_QUERY_UNIQUE_DESTINATIONS_SRP;
+/*31:405*/extern DESCRIPTOR_S DAPRS_QUERY_UNIQUE_DESTINATIONS_SRQ[];
+/*31:406*/extern DESCRIPTOR_S DAPRS_QUERY_UNIQUE_DESTINATIONS_SRA[];
+/*31:407*/extern DESCRIPTOR_S DAPRS_QUERY_UNIQUE_DESTINATIONS_SRP[];
+/*31:409*/typedef struct APRS_QUERY_USERS_SRQ
+/*31:410*/{STATION_ID_F StationID;
+/*31:411*/TIMESTAMP_F NewerThan;
+/*31:412*/TIMESTAMP_F InactiveSince;
+/*31:413*/TIMESTAMP_F ActiveSince;
+/*31:414*/TIMESTAMP_F RegisteredSince;
+/*31:415*/BOOLEAN_F ReallyAll;
+/*31:416*/}APRS_QUERY_USERS_SRQ;
+/*31:418*/typedef struct APRS_QUERY_USERS_SRP
+/*31:419*/{COUNT_F Count;
+/*31:420*/struct
+/*31:421*/{STATION_ID_F StationID;
+/*31:422*/TIMESTAMP_F FirstHeard;
+/*31:423*/COORDINATE_S First;
+/*31:424*/TIMESTAMP_F LastHeard;
+/*31:425*/COORDINATE_S Last;
+/*31:426*/VERSION_F Version;
+/*31:427*/TIMESTAMP_F Registered;
+/*31:428*/COUNT_F PacketsReceived;
+/*31:429*/}Users[1];
+/*31:430*/}APRS_QUERY_USERS_SRP;
+/*31:432*/extern DESCRIPTOR_S DAPRS_QUERY_USERS_SRQ[];
+/*31:433*/extern DESCRIPTOR_S DAPRS_QUERY_USERS_SRP[];
+/*31:435*/typedef struct APRS_REGISTER_USER_SRQ
+/*31:436*/{STATION_ID_F StationID;
+/*31:437*/TIMESTAMP_F When;
+/*31:438*/}APRS_REGISTER_USER_SRQ;
+/*31:440*/typedef struct APRS_REGISTER_USER_SRP
+/*31:441*/{STRING_F Password;
+/*31:442*/}APRS_REGISTER_USER_SRP;
+/*31:444*/extern DESCRIPTOR_S DAPRS_REGISTER_USER_SRQ[];
+/*31:445*/extern DESCRIPTOR_S DAPRS_REGISTER_USER_SRP[];
+/*31:447*/typedef struct APRS_QUERY_USER_PACKETS_SRQ
+/*31:448*/{STATION_ID_F StationID;
+/*31:449*/TIMESTAMP_F StartTime;
+/*31:450*/TIMESTAMP_F EndTime;
+/*31:452*/BOOLEAN_F ReallyAll;
+/*31:453*/}APRS_QUERY_USER_PACKETS_SRQ;
+/*31:455*/typedef struct APRS_QUERY_USER_PACKETS_SRP
+/*31:456*/{COUNT_F Count;
+/*31:457*/struct
+/*31:458*/{STATION_ID_F StationID;
+/*31:459*/TIMESTAMP_F When;
+/*31:460*/COORDINATE_S Where;
+/*31:461*/IP_ADDRESS_F IPAddress;
+/*31:462*/DNS_NAME_F ReverseDNS;
+/*31:463*/}Packets[1];
+/*31:464*/}APRS_QUERY_USER_PACKETS_SRP;
+/*31:466*/extern DESCRIPTOR_S DAPRS_QUERY_USER_PACKETS_SRQ[];
+/*31:467*/extern DESCRIPTOR_S DAPRS_QUERY_USER_PACKETS_SRP[];
+/*31:469*/typedef struct APRS_PURGE_USER_PACKETS_SRQ
+/*31:470*/{STATION_ID_F StationID;
+/*31:471*/TIMESTAMP_F StartTime;
+/*31:472*/TIMESTAMP_F EndTime;
+/*31:474*/BOOLEAN_F ReallyAll;
+/*31:475*/}APRS_PURGE_USER_PACKETS_SRQ;
+/*31:477*/typedef struct APRS_PURGE_USER_PACKETS_SRP
+/*31:478*/{COUNT_F Count;
+/*31:479*/}APRS_PURGE_USER_PACKETS_SRP;
+/*31:481*/extern DESCRIPTOR_S DAPRS_PURGE_USER_PACKETS_SRQ[];
+/*31:482*/extern DESCRIPTOR_S DAPRS_PURGE_USER_PACKETS_SRP[];
+/*31:484*/typedef struct APRS_QUERY_TRAFFIC_RATES_SRQ
+/*31:485*/{STATION_ID_F OriginID;
+/*31:486*/STATION_ID_F RelayID;
+/*31:487*/STATION_ID_F IGateID;
+/*31:488*/INTEGER_ID_F OriginIndex;
+/*31:489*/INTEGER_ID_F RelayIndex;
+/*31:490*/INTEGER_ID_F HeardIndex;
+/*31:491*/BOOLEAN_F HeardOnRF;
+/*31:492*/TIMESTAMP_F StartTime;
+/*31:493*/TIMESTAMP_F EndTime;
+/*31:494*/COUNT_F BucketSize;
+/*31:495*/BOOLEAN_F IncludeEmpties;
+/*31:496*/BOOLEAN_F ReallyAll;
+/*31:497*/}APRS_QUERY_TRAFFIC_RATES_SRQ;
+/*31:499*/typedef struct APRS_QUERY_TRAFFIC_RATES_SRA
+/*31:500*/{TIMESTAMP_F StartTime;
+/*31:501*/COUNT_F PacketCount;
+/*31:502*/}APRS_QUERY_TRAFFIC_RATES_SRA;
+/*31:504*/typedef struct APRS_QUERY_TRAFFIC_RATES_SRP
+/*31:505*/{COUNT_F Total;
+/*31:506*/COUNT_F Count;
+/*31:507*/APRS_QUERY_TRAFFIC_RATES_SRA Rates[1];
+/*31:508*/}APRS_QUERY_TRAFFIC_RATES_SRP;
+/*31:510*/extern DESCRIPTOR_S DAPRS_QUERY_TRAFFIC_RATES_SRQ[];
+/*31:511*/extern DESCRIPTOR_S DAPRS_QUERY_TRAFFIC_RATES_SRA[];
+/*31:512*/extern DESCRIPTOR_S DAPRS_QUERY_TRAFFIC_RATES_SRP[];
+/*31:514*/typedef struct APRS_CALC_OSM_TILES_SRQ
+/*31:515*/{COORDINATE_S Min,Max;
+/*31:516*/COUNT_F Zoom;
+/*31:517*/COUNT_F MaxTiles;
+/*31:518*/COUNT_F TopMargin;
+/*31:519*/COUNT_F LeftMargin;
+/*31:520*/COUNT_F BottomMargin;
+/*31:521*/COUNT_F RightMargin;
+/*31:522*/}APRS_CALC_OSM_TILES_SRQ;
+/*31:524*/typedef struct APRS_CALC_OSM_TILES_SRP
+/*31:525*/{COORDINATE_S Min,Max;
+/*31:526*/COUNT_F Zoom;
+/*31:527*/COUNT_F TileCount;
+/*31:528*/COUNT_F StartX,EndX;
+/*31:529*/COUNT_F StartY,EndY;
+/*31:530*/COORDINATE_F DeltaLongitude;
+/*31:531*/COUNT_F Count;
+/*31:532*/struct
+/*31:533*/{COUNT_F Y;
+/*31:534*/COORDINATE_F StartLatitude;
+/*31:535*/COORDINATE_F EndLatitude;
+/*31:536*/COORDINATE_F DeltaLatitude;
+/*31:537*/}Tiles[1];
+/*31:538*/}APRS_CALC_OSM_TILES_SRP;
+/*31:540*/extern DESCRIPTOR_S DAPRS_CALC_OSM_TILES_SRQ[];
+/*31:541*/extern DESCRIPTOR_S DAPRS_CALC_OSM_TILES_SRP[];
+/*31:543*/typedef struct APRS_INJECT_STATION_POSITION_SRQ
+/*31:544*/{STRING_F OwnerID;
+/*31:545*/STRING_F StationID;
+/*31:546*/STRING_F ToCall;
+/*31:547*/BOOLEAN_F MessagingCapable;
+/*31:548*/APRS_SYMBOL_F Symbol;
+/*31:549*/TIMESTAMP_F Timestamp;
+/*31:550*/COORDINATE_S Pos;
+/*31:551*/SPEED_F Speed;
+/*31:552*/BEARING_F Bearing;
+/*31:553*/ALTITUDE_F Altitude;
+/*31:554*/STRING_F Comment;
+/*31:555*/}APRS_INJECT_STATION_POSITION_SRQ;
+/*31:557*/typedef struct APRS_INJECT_STATION_POSITION_SRP
+/*31:558*/{STRING_F Packet;
+/*31:559*/}APRS_INJECT_STATION_POSITION_SRP;
+/*31:561*/extern DESCRIPTOR_S DAPRS_INJECT_STATION_POSITION_SRQ[];
+/*31:562*/extern DESCRIPTOR_S DAPRS_INJECT_STATION_POSITION_SRP[];
+/*31:565*/
+/*0:7*/extern DESCRIPTOR_S DTH_DELAY_INFO_S[];
+/*0:9*/extern DESCRIPTOR_S DAPRSISCE_USER0_S[];
+/*0:10*/extern DESCRIPTOR_S DAPRSISCE_USER_S[];
+/*0:11*/extern DESCRIPTOR_S DUSER_PACKET_S[];
+/*0:12*/extern DESCRIPTOR_S DSTATION_IDS_S[];
+/*0:13*/extern DESCRIPTOR_S DPOSITION_S[];
+/*0:14*/extern DESCRIPTOR_S DHOP_S[];
+/*0:15*/extern DESCRIPTOR_S DSTATION1_S[];
+/*0:16*/extern DESCRIPTOR_S DSTATION_S[];
+/*0:17*/extern DESCRIPTOR_S DPACKET_S[];
+/*0:19*/extern DESCRIPTOR_S DAPRS_LOG_PACKET_SRQ[];
+/*0:20*/extern DESCRIPTOR_S DAPRS_LOG_PACKET_SRP[];
+/*0:21*/extern DESCRIPTOR_S DAPRS_LOG_RECEIVED_PACKET_SRQ[];
+/*0:22*/extern DESCRIPTOR_S DAPRS_LOG_RECEIVED_PACKET_SRP[];
+/*0:23*/extern DESCRIPTOR_S DAPRS_LOG_DIGIPEATED_PACKET_SRQ[];
+/*0:24*/extern DESCRIPTOR_S DAPRS_LOG_DIGIPEATED_PACKET_SRP[];
+/*0:25*/extern DESCRIPTOR_S DAPRS_REPARSE_LOG_FILE_SRQ[];
+/*0:26*/extern DESCRIPTOR_S DAPRS_REPARSE_LOG_FILE_SRP[];
+/*0:27*/extern DESCRIPTOR_S DAPRS_PURGE_PACKETS_SRQ[];
+/*0:28*/extern DESCRIPTOR_S DAPRS_PURGE_PACKETS_SRP[];
+/*0:29*/extern DESCRIPTOR_S DAPRS_QUERY_HOPS_SRQ[];
+/*0:30*/extern DESCRIPTOR_S DAPRS_QUERY_HOPS_SRP[];
+/*0:31*/extern DESCRIPTOR_S DAPRS_QUERY_PACKETS_SRQ[];
+/*0:32*/extern DESCRIPTOR_S DAPRS_QUERY_PACKETS_SRP[];
+/*0:33*/extern DESCRIPTOR_S DAPRS_DELETE_PACKETS_SRQ[];
+/*0:34*/extern DESCRIPTOR_S DAPRS_DELETE_PACKETS_SRP[];
+/*0:35*/extern DESCRIPTOR_S DAPRS_LOOKUP_STATION_SRQ[];
+/*0:36*/extern DESCRIPTOR_S DAPRS_LOOKUP_STATION_SRP[];
+/*0:37*/extern DESCRIPTOR_S DAPRS_QUERY_STATION_INDICES_SRQ[];
+/*0:38*/extern DESCRIPTOR_S DAPRS_QUERY_STATION_INDICES_SRP[];
+/*0:39*/extern DESCRIPTOR_S DAPRS_QUERY_STATIONS_SRQ[];
+/*0:40*/extern DESCRIPTOR_S DAPRS_QUERY_STATIONS_SRP[];
+/*0:41*/extern DESCRIPTOR_S DAPRS_QUERY_UNIQUE_IGATES_SRQ[];
+/*0:42*/extern DESCRIPTOR_S DAPRS_QUERY_UNIQUE_IGATES_SRA[];
+/*0:43*/extern DESCRIPTOR_S DAPRS_QUERY_UNIQUE_IGATES_SRP[];
+/*0:45*/extern DESCRIPTOR_S DAPRS_QUERY_UNIQUE_DESTINATIONS_SRQ[];
+/*0:46*/extern DESCRIPTOR_S DAPRS_QUERY_UNIQUE_DESTINATIONS_SRA[];
+/*0:47*/extern DESCRIPTOR_S DAPRS_QUERY_UNIQUE_DESTINATIONS_SRP[];
+/*0:49*/extern DESCRIPTOR_S DAPRS_QUERY_UNIQUE_PATHS_SRQ[];
+/*0:50*/extern DESCRIPTOR_S DAPRS_QUERY_UNIQUE_PATHS_SRA[];
+/*0:51*/extern DESCRIPTOR_S DAPRS_QUERY_UNIQUE_PATHS_SRP[];
+/*0:52*/extern DESCRIPTOR_S DAPRS_QUERY_UNIQUE_ALT_PATHS_SRQ[];
+/*0:53*/extern DESCRIPTOR_S DAPRS_QUERY_UNIQUE_ALT_PATHS_SRA[];
+/*0:54*/extern DESCRIPTOR_S DAPRS_QUERY_UNIQUE_ALT_PATHS_SRP[];
+/*0:55*/extern DESCRIPTOR_S DAPRS_QUERY_USERS_SRQ[];
+/*0:56*/extern DESCRIPTOR_S DAPRS_QUERY_USERS_SRP[];
+/*0:57*/extern DESCRIPTOR_S DAPRS_REGISTER_USER_SRQ[];
+/*0:58*/extern DESCRIPTOR_S DAPRS_REGISTER_USER_SRP[];
+/*0:59*/extern DESCRIPTOR_S DAPRS_QUERY_USER_PACKETS_SRQ[];
+/*0:60*/extern DESCRIPTOR_S DAPRS_QUERY_USER_PACKETS_SRP[];
+/*0:61*/extern DESCRIPTOR_S DAPRS_PURGE_USER_PACKETS_SRQ[];
+/*0:62*/extern DESCRIPTOR_S DAPRS_PURGE_USER_PACKETS_SRP[];
+/*0:63*/extern DESCRIPTOR_S DAPRS_QUERY_TRAFFIC_RATES_SRQ[];
+/*0:64*/extern DESCRIPTOR_S DAPRS_QUERY_TRAFFIC_RATES_SRA[];
+/*0:65*/extern DESCRIPTOR_S DAPRS_QUERY_TRAFFIC_RATES_SRP[];
+/*0:66*/extern DESCRIPTOR_S DAPRS_CALC_OSM_TILES_SRQ[];
+/*0:67*/extern DESCRIPTOR_S DAPRS_CALC_OSM_TILES_SRP[];
+/*0:69*/extern DESCRIPTOR_S DAPRS_INJECT_STATION_POSITION_SRQ[];
+/*0:70*/extern DESCRIPTOR_S DAPRS_INJECT_STATION_POSITION_SRP[];
+/*0:73*/
